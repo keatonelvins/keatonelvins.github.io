@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+          <li><a href="{{ site.baseurl | default: "/"}}">home</a></li>
+          <li><a href="/photos">photos</a></li>
+          <li><a href="/writing">writing</a></li>
+          <li><a href="/projects">projects</a></li>
+      </ul>
+    </nav>
+    {{ content }}
+  </body>
+</html>

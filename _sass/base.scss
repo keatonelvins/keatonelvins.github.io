@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700;700i&display=swap');
+
+$backgroundColor: #2b4831;
+$bodyColor: #000000;
+$bodyFont: 'Cormorant Garamond', serif;
+$titleFont: 'Cormorant Garamond', serif;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  font-size: 4em; 
+  color: #e6ba0b;
+  font-family: $titleFont;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b4831;
+  width: 100%; 
+  top: 0;
+  z-index: 100; 
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  float: none;
+}
+
+.navbar li a {
+  display: block;
+  color: #e6ba0b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #f0e2a8;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-widget {
+  background-color: #f0e2a8;
+  border-radius: 15px;
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  p {
+    text-align: left;
+    font-size: 1em;
+    color: #666;
+  }
+}
+
+.post-content {
+  background-color: #fff;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 20px;
+}
