@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700;700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700;700i&family=Space+Mono:wght@400;400i&display=swap');
 
 $backgroundColor: #2b4831;
 $bodyColor: #000000;
-$bodyFont: 'Cormorant Garamond', serif;
+$bodyFont: 'Space Mono', monospace;
 $titleFont: 'Cormorant Garamond', serif;
 
 body {
@@ -64,47 +64,58 @@ html {
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 #posts {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  background-color: #91471d;
 }
 
 .post-widget {
-  background-color: #f0e2a8;
+  margin: 30px;
+  width: 200px;
+  width: calc(100% - 60px);
+  background-color: #efeae4;
   border-radius: 15px;
-  width: calc(100% / 3 - 20px);
-  margin: 10px;
-  padding: 20px;
-  box-sizing: border-box;
-  text-decoration: none;
+  overflow: hidden;
+  display: flex; 
+  flex-direction: column;
+  
+  @media (min-width: 800px) {
+    width: calc(50% - 60px);
+  }
+
+  @media (min-width: 1200px) {
+    width: calc(33.33% - 60px); 
+  }
 
   a {
     text-decoration: none;
-    color: inherit;
   }
 
   img {
+    display: block;
     width: 100%;
     height: auto;
   }
 
-  h2 {
-    text-align: left;
-    font-size: 1.5em;
-    color: #333;
-  }
-
-  p {
+  .post-info {
     text-align: left;
     font-size: 1em;
-    color: #666;
+    color: #414224;
+    padding-left: 20px;
+    font-family: $bodyFont;
   }
 }
 
 .post-content {
-  background-color: #fff;
+  background-color: #efeae4;
   max-width: 60rem;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
