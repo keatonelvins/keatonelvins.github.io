@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "aliterary nonsense"
+title: "beaks and claws"
 ---
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
@@ -8,11 +8,15 @@ title: "aliterary nonsense"
     <h1>{{ page.title }}</h1>
 </div>
 
+{% assign counter = 1 %}
 <section id="posts">
   {% for post in site.posts %}
     <div class="post-widget">
       <a href="{{ post.url }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        {% if post.image %}
+          <img src="{{ site.baseurl }}/assets/posts/{{ counter }}.jpg" alt="{{ post.title }}">
+          {% assign counter = counter | plus: 1 %}
+        {% endif %}
         <div class="post-info">
           <p>{{ post.category }}</p>
           <h2>{{ post.title }}</h2>
