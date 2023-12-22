@@ -3,7 +3,6 @@
 body {
   background: $backgroundColor;
   color: $bodyColor;
-  font-family: $bodyFont;
 }
 
 body, html {
@@ -53,7 +52,8 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font: $headerFont;
+    font-family: $headerFont;
+    font-size: 1.2em;
   }
 
   li a:hover {
@@ -67,6 +67,10 @@ body.posts {
   .navbar a {
     color: $bodyColor;
   }
+
+  a:hover {
+    color: $bodyHighlightColor;
+  }
 }
 
 body.post {
@@ -74,6 +78,10 @@ body.post {
 
   .navbar a {
     color: $bodyColor;
+  }
+
+  a:hover {
+    color: $bodyHighlightColor;
   }
 }
 
@@ -87,6 +95,17 @@ article.post {
     background-color: $lightBackgroundColor;
     width: 80%;
     margin: auto;
+    font-family: $headerFont;
+    font-size: 2rem;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
   }
 
   .post-content {
@@ -94,6 +113,7 @@ article.post {
     background-color: $foregroundColor;
     width: 70%;
     margin: auto;
+    font-family: $bodyFont;
 
     code {
       display: block;
@@ -179,6 +199,8 @@ article.post {
   background-color: $foregroundColor;
   list-style-type: none;
   padding: 0 50px;
+  width: 80%;
+  margin: auto;
 
   li {
     border-top: 1px solid $bodyColor;
@@ -191,17 +213,21 @@ article.post {
       align-items: center; 
       justify-content: space-between;
       width: 100%;
+      font-family: $headerFont;
 
       h2, p {
         margin: 0; 
         padding: 0 10px;
+      }
+
+      p {
+        font-family: $bodyFont;
       }
     }
 
     a {
       color: $bodyColor;
       text-decoration: none;
-      font: $headerFont;
   
       &:hover {
         color: $bodyHighlightColor;

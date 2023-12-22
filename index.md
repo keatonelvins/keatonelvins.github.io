@@ -24,7 +24,7 @@ title: "beaks and claws"
         <div class="post-info">
           <p>{{ post.category }}</p>
           <h2>{{ post.title }}</h2>
-          <p>{{ post.date | date_to_string }}</p>
+          <p>{{ post.date | date_to_string | downcase}}</p>
         </div>
       </a>
     </div>
