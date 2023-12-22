@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "beaks and claws"
 ---
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
@@ -8,13 +8,17 @@ title: "beaks and claws"
     <h1>{{ page.title }}</h1>
 </div>
 
-{% assign counter = 1 %}
+{% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
+{% assign total_images = posts_with_images | size %}
+
+{% assign counter = 0 %}
 <section id="posts">
   {% for post in site.posts %}
     <div class="post-widget">
       <a href="{{ post.url }}">
         {% if post.image %}
-          <img src="{{ site.baseurl }}/assets/posts/{{ counter }}.jpg" alt="{{ post.title }}">
+          {% assign idx = total_images | minus: counter %}
+          <img src="{{ site.baseurl }}/assets/posts/{{ idx }}.jpg" alt="{{ post.title }}">
           {% assign counter = counter | plus: 1 %}
         {% endif %}
         <div class="post-info">
