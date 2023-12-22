@@ -74,12 +74,13 @@ html {
 
 .post-widget {
   margin: 30px;
-  width: 100%;
+  width: 90%;
   background-color: $foregroundColor;
   border-radius: 15px;
   overflow: hidden;
   display: flex; 
   flex-direction: column;
+  align-items: center;
   border: 1px solid $bodyColor;
 
   &:hover {
