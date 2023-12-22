@@ -1,5 +1,5 @@
 ---
 layout: post
-title: fun with kernels
+title: fun with hyperplanes
 image: true
 ---
