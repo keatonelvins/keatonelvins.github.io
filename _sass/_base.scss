@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700;700i&family=Space+Mono:wght@400;400i&display=swap');
-
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-}
-
 body, html {
   margin: 0;
   padding: 0;
@@ -39,7 +32,6 @@ html {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   width: 100%; 
   top: 0;
   z-index: 100; 
@@ -57,31 +49,35 @@ html {
   }
 
   li a:hover {
-    color: $accentHighlightColor;
+    color: $accentShadeColor;
   }
 }
 
+body.home {
+  background-color: $primaryColor;
+}
+
 body.posts {
-  background-color: $foregroundColor;
+  background-color: $backgroundColor;
 
   .navbar a {
-    color: $bodyColor;
+    color: $textColor;
   }
 
   a:hover {
-    color: $bodyHighlightColor;
+    color: $textShadeColor;
   }
 }
 
 body.post {
-  background-color: $lightBackgroundColor;
+  background-color: $backgroundColor;
 
   .navbar a {
-    color: $bodyColor;
+    color: $textColor;
   }
 
   a:hover {
-    color: $bodyHighlightColor;
+    color: $textShadeColor;
   }
 }
 
@@ -92,7 +88,7 @@ article.post {
     align-items: center;
     justify-content: center;
     padding: 50px 0;
-    background-color: $lightBackgroundColor;
+    background-color: $backgroundColor;
     width: 80%;
     margin: auto;
     font-family: $headerFont;
@@ -110,14 +106,19 @@ article.post {
 
   .post-content {
     padding: 50px;
-    background-color: $foregroundColor;
-    width: 70%;
+    background-color: $white;
+    width: 60%;
     margin: auto;
     font-family: $bodyFont;
+    line-height: 2;
 
+    a {
+      text-decoration: none;
+    }
+    
     code {
       display: block;
-      background-color: $foregroundHighlightColor;
+      background-color: $foregroundShadeColor;
       padding: 15px;
       margin: 10px 0;
       border-radius: 5px;
@@ -134,7 +135,7 @@ article.post {
 #posts {
   display: flex;
   justify-content: center;
-  background-color: $lightBackgroundColor;
+  background-color: $backgroundColor;
   background-repeat: repeat;
   background-size: 100% auto;
   background-blend-mode: multiply;
@@ -151,10 +152,10 @@ article.post {
   display: flex; 
   flex-direction: column;
   align-items: center;
-  border: 1px solid $bodyColor;
+  border: 1px solid $textColor;
 
   &:hover {
-    background-color: $foregroundHighlightColor;
+    background-color: $foregroundShadeColor;
     transform: scale(1.02);
     transition: all 0.3s ease;
   }
@@ -180,30 +181,30 @@ article.post {
   .post-info {
     text-align: left;
     font-size: 1em;
-    color: $bodyColor;
+    color: $textColor;
     padding-left: 20px;
     padding-right: 20px;
     font-family: $bodyFont;
-  }
 
-  .post-info h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.3em;
-    font-weight: 700;
-    font-family: $headerFont;
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.3em;
+      font-weight: 700;
+      font-family: $headerFont;
+    }
   }
 }
 
 .posts-list {
-  background-color: $foregroundColor;
+  background-color: $backgroundColor;
   list-style-type: none;
   padding: 0 50px;
   width: 80%;
   margin: auto;
 
   li {
-    border-top: 1px solid $bodyColor;
+    border-top: 1px solid $textColor;
     display: flex;
     align-items: center;
     padding: 30px 0;
@@ -226,17 +227,17 @@ article.post {
     }
 
     a {
-      color: $bodyColor;
+      color: $textColor;
       text-decoration: none;
   
       &:hover {
-        color: $bodyHighlightColor;
+        color: $textShadeColor;
       }
     }
   }
 
   li:last-child {
-    border-top: 1px solid $bodyColor;
-    border-bottom: 1px solid $bodyColor;
+    border-top: 1px solid $textColor;
+    border-bottom: 1px solid $textColor;
   }
 }
