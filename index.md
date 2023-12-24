@@ -1,12 +1,8 @@
 ---
 layout: home
-title: "beaks and claws"
+title: "keaton elvins"
 ---
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
-<div class="title">
-    <h1>{{ page.title }}</h1>
-</div>
 
 {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
 {% assign total_images = posts_with_images | size %}

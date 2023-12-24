@@ -3,6 +3,7 @@ body, html {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: $backgroundColor;
 }
 
 html {
@@ -40,7 +41,7 @@ html {
 
   li a {
     display: block;
-    color: $accentColor;
+    color: $textColor;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,36 +50,12 @@ html {
   }
 
   li a:hover {
-    color: $accentShadeColor;
+    color: $textShadeColor;
   }
 }
 
 body.home {
-  background-color: $primaryColor;
-}
-
-body.posts {
   background-color: $backgroundColor;
-
-  .navbar a {
-    color: $textColor;
-  }
-
-  a:hover {
-    color: $textShadeColor;
-  }
-}
-
-body.post {
-  background-color: $backgroundColor;
-
-  .navbar a {
-    color: $textColor;
-  }
-
-  a:hover {
-    color: $textShadeColor;
-  }
 }
 
 article.post {
@@ -87,30 +64,33 @@ article.post {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 0;
     background-color: $backgroundColor;
+    padding-bottom: 20px;
     width: 80%;
     margin: auto;
     font-family: $headerFont;
-    font-size: 2rem;
+    font-size: 2em;
 
     h1 {
-      margin-bottom: 20px;
+      padding: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
 
     p {
       margin-top: 0px;
       margin-bottom: 0px;
+      font-size: 1.8rem;
     }
   }
 
   .post-content {
-    padding: 50px;
-    background-color: $white;
-    width: 60%;
+    background-color: $foregroundColor;
+    width: 50%;
     margin: auto;
     font-family: $bodyFont;
     line-height: 2;
+    padding: 10px 30px 10px 30px;
 
     a {
       text-decoration: none;
@@ -125,9 +105,9 @@ article.post {
       overflow-x: auto;
     }
 
-    .katex {
-      font-size: 2rem;
-      color: purple;
+    // Math blocks
+    p:only-child > .MathJax {
+      padding: 40px;
     }
   }
 }
@@ -141,6 +121,7 @@ article.post {
   background-blend-mode: multiply;
   width: 80%;
   margin: auto;
+  min-height: calc(100vh-60px);
 }
 
 .post-widget {
@@ -170,6 +151,7 @@ article.post {
 
   a {
     text-decoration: none;
+    width: 100%
   }
 
   img {
@@ -240,4 +222,13 @@ article.post {
     border-top: 1px solid $textColor;
     border-bottom: 1px solid $textColor;
   }
+}
+
+.bio-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  font-family: $headerFont;
+  font-size: 5rem;
 }
