@@ -14,7 +14,7 @@ title: "keaton elvins"
       <a href="{{ post.url }}">
         {% if post.image %}
           {% assign idx = total_images | minus: counter %}
-          <img src="{{ site.baseurl }}/assets/posts/{{ idx }}.jpg" alt="{{ post.title }}">
+          <img src="{{ site.baseurl }}/assets/thumbnails/{{ idx }}.jpg" alt="{{ post.title }}">
           {% assign counter = counter | plus: 1 %}
         {% endif %}
         <div class="post-info">

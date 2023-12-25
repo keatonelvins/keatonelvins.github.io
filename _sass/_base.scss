@@ -16,19 +16,6 @@ html {
   display: none;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-  text-align: center;
-  font-size: 4em; 
-  color: $accentColor;
-  font-family: $titleFont;
-  font-weight: 700;
-  font-style: italic;
-}
-
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -54,17 +41,12 @@ html {
   }
 }
 
-body.home {
-  background-color: $backgroundColor;
-}
-
 article.post {
   .post-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $backgroundColor;
     padding-bottom: 20px;
     width: 80%;
     margin: auto;
@@ -75,6 +57,7 @@ article.post {
       padding: 10px;
       margin-top: 0px;
       margin-bottom: 0px;
+      text-align: center;
     }
 
     p {
@@ -95,6 +78,18 @@ article.post {
     a {
       text-decoration: none;
     }
+
+    img {
+      display: block;
+      margin: auto;
+      width: 75%;
+    }
+
+    img + em {
+      display: block;
+      text-align: center;
+      font-size: 0.8em;
+    }
     
     code {
       display: block;
@@ -103,6 +98,7 @@ article.post {
       margin: 10px 0;
       border-radius: 5px;
       overflow-x: auto;
+      font-family: 'Inconsolata', sans-serif;
     }
 
     // Math blocks
@@ -115,10 +111,7 @@ article.post {
 #posts {
   display: flex;
   justify-content: center;
-  background-color: $backgroundColor;
-  background-repeat: repeat;
-  background-size: 100% auto;
-  background-blend-mode: multiply;
+  background-color: transparent;
   width: 80%;
   margin: auto;
   min-height: calc(100vh-60px);
@@ -179,7 +172,6 @@ article.post {
 }
 
 .posts-list {
-  background-color: $backgroundColor;
   list-style-type: none;
   padding: 0 50px;
   width: 80%;
@@ -226,9 +218,14 @@ article.post {
 
 .bio-header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 60px);
   font-family: $headerFont;
   font-size: 5rem;
+
+  h2 {
+    margin-bottom: 0;
+  }
 }
