@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Index
+title: index
 ---
 
 <ul class="posts-list">

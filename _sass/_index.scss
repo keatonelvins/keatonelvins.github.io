@@ -1,0 +1,44 @@
+.posts-list {
+    list-style-type: none;
+    padding: 0 1em;
+    width: 80%;
+    margin: auto;
+  
+    li {
+      border-top: 1px solid $textColor;
+      display: flex;
+      align-items: center;
+      padding: 2em 0;
+  
+      .posts-list-entry {
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        width: 100%;
+        font-family: $headerFont;
+
+        h2, p {
+          margin: 0;
+          padding: 0 0.8em;
+        }
+
+        p {
+          font-family: $bodyFont;
+        }
+      }
+
+      a {
+        color: $textColor;
+        text-decoration: none;
+
+        &:hover {
+          color: $textShadeColor;
+        }
+      }
+    } 
+
+    li:last-child {
+      border-top: 1px solid $textColor;
+      border-bottom: 1px solid $textColor;
+    }
+  }

@@ -1,0 +1,67 @@
+article.post {
+  .post-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    width: 80%;
+    margin: auto;
+    font-family: $headerFont;
+
+    h1 {
+      padding: 0.2em;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 1.8rem;
+    }
+  }
+
+  .post-content {
+    background-color: $foregroundColor;
+    width: 50%;
+    margin: auto;
+    font-family: $bodyFont;
+    line-height: 2;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 75%;
+      max-height: 20em;
+    }
+
+    img + em {
+      display: block;
+      text-align: center;
+      font-size: 1em;
+    }
+    
+    code {
+      display: block;
+      background-color: $foregroundShadeColor;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-family: 'Inconsolata', sans-serif;
+    }
+
+    // Math blocks
+    p:only-child > .MathJax {
+      padding: 40px;
+    }
+  }
+}

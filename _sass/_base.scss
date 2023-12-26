@@ -3,6 +3,9 @@ body, html {
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+body {
   background-color: $backgroundColor;
 }
 
@@ -22,7 +25,6 @@ html {
   padding: 0;
   width: 100%; 
   top: 0;
-  z-index: 100; 
   display: flex;
   justify-content: center;
 
@@ -30,198 +32,13 @@ html {
     display: block;
     color: $textColor;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8em 1em;
     text-decoration: none;
     font-family: $headerFont;
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   li a:hover {
     color: $textShadeColor;
   }
-}
-
-article.post {
-  .post-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    width: 80%;
-    margin: auto;
-    font-family: $headerFont;
-    font-size: 2em;
-
-    h1 {
-      padding: 10px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      text-align: center;
-    }
-
-    p {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-size: 1.8rem;
-    }
-  }
-
-  .post-content {
-    background-color: $foregroundColor;
-    width: 50%;
-    margin: auto;
-    font-family: $bodyFont;
-    line-height: 2;
-    padding: 10px 30px 10px 30px;
-
-    a {
-      text-decoration: none;
-    }
-
-    img {
-      display: block;
-      margin: auto;
-      width: 75%;
-    }
-
-    img + em {
-      display: block;
-      text-align: center;
-      font-size: 0.8em;
-    }
-    
-    code {
-      display: block;
-      background-color: $foregroundShadeColor;
-      padding: 15px;
-      margin: 10px 0;
-      border-radius: 5px;
-      overflow-x: auto;
-      font-family: 'Inconsolata', sans-serif;
-    }
-
-    // Math blocks
-    p:only-child > .MathJax {
-      padding: 40px;
-    }
-  }
-}
-
-#posts {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  width: 80%;
-  margin: auto;
-  min-height: calc(100vh-60px);
-}
-
-.post-widget {
-  margin: 30px;
-  width: 90%;
-  background-color: $foregroundColor;
-  border-radius: 15px;
-  overflow: hidden;
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid $textColor;
-
-  &:hover {
-    background-color: $foregroundShadeColor;
-    transform: scale(1.02);
-    transition: all 0.3s ease;
-  }
-  
-  @media (min-width: 800px) {
-    width: calc(50% - 64px);
-  }
-
-  @media (min-width: 1200px) {
-    width: calc(33.33% - 66px); 
-  }
-
-  a {
-    text-decoration: none;
-    width: 100%
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .post-info {
-    text-align: left;
-    font-size: 1em;
-    color: $textColor;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: $bodyFont;
-
-    h2 {
-      margin: 0;
-      padding: 0;
-      font-size: 1.3em;
-      font-weight: 700;
-      font-family: $headerFont;
-    }
-  }
-}
-
-.posts-list {
-  list-style-type: none;
-  padding: 0 50px;
-  width: 80%;
-  margin: auto;
-
-  li {
-    border-top: 1px solid $textColor;
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
-
-    .posts-list-entry {
-      display: flex; 
-      align-items: center; 
-      justify-content: space-between;
-      width: 100%;
-      font-family: $headerFont;
-
-      h2, p {
-        margin: 0; 
-        padding: 0 10px;
-      }
-
-      p {
-        font-family: $bodyFont;
-      }
-    }
-
-    a {
-      color: $textColor;
-      text-decoration: none;
-  
-      &:hover {
-        color: $textShadeColor;
-      }
-    }
-  }
-
-  li:last-child {
-    border-top: 1px solid $textColor;
-    border-bottom: 1px solid $textColor;
-  }
-}
-
-.bio-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 60px);
-  font-family: $headerFont;
-  font-size: 5rem;
 }
