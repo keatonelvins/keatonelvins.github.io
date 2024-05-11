@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the aperiodic monotile
+title: vector-based random matrix adaption
 image: true
 ---
 
