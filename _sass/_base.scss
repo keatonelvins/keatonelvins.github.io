@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background-color: $backgroundColor;
+  background-color: $parchment;
 }
 
 html {
@@ -30,7 +30,7 @@ html {
 
   li a {
     display: block;
-    color: $textColor;
+    color: $bistre;
     text-align: center;
     padding: 0.8em 1em;
     text-decoration: none;
@@ -39,6 +39,7 @@ html {
   }
 
   li a:hover {
-    color: $textShadeColor;
+    color: $parchment;
+    background-color: $tangerine
   }
 }

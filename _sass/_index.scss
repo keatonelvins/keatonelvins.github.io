@@ -5,7 +5,7 @@
     margin: auto;
   
     li {
-      border-top: 1px solid $textColor;
+      border-top: 1px solid $bistre;
       display: flex;
       align-items: center;
       padding: 2em 0;
@@ -28,17 +28,17 @@
       }
 
       a {
-        color: $textColor;
+        color: $bistre;
         text-decoration: none;
 
         &:hover {
-          color: $textShadeColor;
+          color: $tangerine;
         }
       }
     } 
 
     li:last-child {
-      border-top: 1px solid $textColor;
-      border-bottom: 1px solid $textColor;
+      border-top: 1px solid $bistre;
+      border-bottom: 1px solid $bistre;
     }
   }
