@@ -1,4 +1,4 @@
-.about {
+.cv {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -8,5 +8,12 @@
         width: 60%;
         font-size: 1.5rem;
         margin: auto;
+    }
+
+    h2 {
+        padding: 0.2em;
+        padding-left: 0.8em;
+        color: $parchment;
+        background-color: $cerulean;
     }
 }
