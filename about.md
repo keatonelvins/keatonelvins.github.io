@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: bio
 title: about me
 ---
 
@@ -9,7 +9,7 @@ Hi! I'm a Master's student at NYU's Courant Institute of Mathematical Sciences i
 * Generalization: How can we develop robust systems that generalize well? What is the importance of training data in this problem space? How does our intuition hold up in the interpolation/saturation regimes?
 * Human-AI collaboration: How can we validate intelligent systems are able to infer user's intent? What happens when models learn from human feedback?
   
-I'm a big believer in learning through teaching. Please check out my posts where I'll give thoughts on interesting papers, jot down notes for whatever I'm working on, or anything else comes to mind.
+I'm a big believer in learning through teaching. Please check out my posts where I'll give thoughts on interesting papers, jot down notes for whatever I'm working on, or upload anything else that comes to mind.
 
 In my free time, I love to read and take photos. I'm also very interested in music and plan to do more side projects with the Spotify Web API. Feel free to reach out if you want to talk!
 

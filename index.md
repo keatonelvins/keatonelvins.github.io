@@ -1,8 +1,12 @@
 ---
 layout: home
-title: "keaton elvins"
+title: "home"
 ---
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+<div class="landing">
+    <img src="{{ site.baseurl }}/assets/art/cover-art.png" alt="cover art">
+</div>
 
 {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
 {% assign total_images = posts_with_images | size %}
