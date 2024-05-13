@@ -13,10 +13,12 @@ I'm a big believer in learning through teaching. Please check out my posts where
 
 In my free time, I love to read and take photos. I'm also very interested in music and plan to do more side projects with the Spotify Web API. Feel free to reach out if you want to talk!
 
+Connect with me:
+
 Email: keatone at gmail dot com
 
-LinkedIn: https://www.linkedin.com/in/keatonelvins/
+https://www.linkedin.com/in/keatonelvins/
 
-Github: https://github.com/keatonelvins
+https://github.com/keatonelvins
 
 I did all the styling and design work for this website myself using Jekyll!
