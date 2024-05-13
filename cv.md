@@ -13,7 +13,7 @@ Relevant Coursework (planned/in progress): Deep Learning, Conceptual Gaps in Dee
 ### University of California, Berkeley
 _Bachelor of Science in Electrical Engineering and Computer Science, May 2023_
 
-Relevant Coursework: Data Structures & OOP, Algorithms, Systems Architecture, Computer Security, Linear Algebra, Discrete Math, Multivariable Calculus, Probability Theory, Machine Learning, Optimization, Deep Learning
+Relevant Coursework: Data Structures & OOP, Algorithms, Systems Architecture, Computer Security, Linear Algebra, Discrete Math, Multivariable Calculus, Probability Theory, Machine Learning, Numerical Optimization, Deep Learning
 
 ## PROFESSIONAL EXPERIENCE
 
