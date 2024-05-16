@@ -1,0 +1,53 @@
+.cv {
+    .cv-header {
+        display: flex;
+        justify-content: left;
+        align-items: end;
+        height: 100vh;
+        font-family: $headerFont;
+        font-size: 20rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 75%;
+        flex-direction: column;
+        min-height: calc(100vh);
+
+        h2 {
+            line-height: 1.9rem;
+            font-family: $titleFont;
+            font-size: 3rem;
+            letter-spacing: 0.1em;
+            color: $parchment;
+            background-color: $cerulean;
+            padding-left: 0.5em;
+            padding-top: 1em;
+        }
+
+        a {
+            color: $cerulean;
+            text-decoration: none;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        h4 {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        li {
+            font-size: 2rem;
+        }
+    }
+}

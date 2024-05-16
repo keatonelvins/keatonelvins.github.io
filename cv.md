@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: cv
 title: curriculum vitae
 ---
 
@@ -27,6 +27,10 @@ Academic Intern @ Edlyft
 
 ## ACADEMIC EXPERIENCE
 
-Course Staff - CS 182: Designing, Visualizing, and Understanding Deep Neural Networks
+#### Course Staff - CS 182: Designing, Visualizing, and Understanding Deep Neural Networks
 
-Undergraduate Research Assistant - BLISS Lab
+[Prof. Anant Sahai](https://vcresearch.berkeley.edu/faculty/anant-sahai)
+
+#### Undergraduate Research Assistant - Berkeley Laboratory for Information and System Sciences
+
+[Prof. Kannan Ramchandran](http://people.eecs.berkeley.edu/~kannanr/)
