@@ -3,9 +3,14 @@
         display: flex;
         justify-content: left;
         align-items: end;
-        height: 100vh;
+        min-height: calc(100vh - 3.4rem);        
         font-family: $headerFont;
         font-size: 20rem;
+
+        p {
+            line-height: 75%;
+            margin: 0;
+        }
     }
 
     .content {
@@ -44,6 +49,7 @@
 
         p {
             font-size: 2rem;
+            line-height: 3rem;
         }
 
         li {
