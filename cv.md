@@ -8,7 +8,7 @@ title: curriculum vitae
 ### Courant Institute of Mathematical Sciences, New York University
 _Master of Science in Computer Science, Specialization in Artificial Intelligence, May 2026_
 
-Relevant Coursework (planned/in progress): Deep Learning, Conceptual Gaps in Deep Learning, Deep Learning Theory, Deep Learning Systems, Deep Reinforcement Learning, Natural Language Processing, Big Data & ML Systems
+Relevant Coursework (planned/in progress): Deep Learning, Conceptual Gaps in Deep Learning, Deep Learning Theory, Deep Learning Systems, Deep Reinforcement Learning, Natural Language Processing with Representation Learning, Big Data & ML Systems
 
 ### University of California, Berkeley
 _Bachelor of Science in Electrical Engineering and Computer Science, May 2023_
