@@ -24,7 +24,7 @@
 }
   
 .post-widget {
-    margin: 2em;
+    margin: 2%;
     background-color: $parchment;
     border-radius: 15px;
     overflow: hidden;
@@ -40,12 +40,16 @@
         background-color: $pine;
     }
 
-    @media (min-width: 900px) {
-        width: calc(40%);
+    @media (min-width: 0px) {
+        width: 100%;
+    }
+    
+    @media (min-width: 600px) {
+        width: 45%;
     }
 
-    @media (min-width: 1200px) {
-        width: 27.9%; 
+    @media (min-width: 1000px) {
+        width: 29%;
     }
 
     a {
