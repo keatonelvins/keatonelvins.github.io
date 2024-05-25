@@ -19,6 +19,14 @@ html {
   display: none;
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -40,10 +48,6 @@ html {
 
   li a:hover {
     color: $parchment;
-    background-color: $tangerine
+    background-color: $tangerine;
   }
-}
-
-.home-navbar {
-  background-color: #B1AF9B;
 }

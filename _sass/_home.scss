@@ -2,29 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: bottom;
-    min-height: calc(100vh - 3em);
     background-color: #B1AF9B;
     margin: 0;
     padding: 0;
 
     img {
         margin: 0;
-        width: 70%;
+        width: 100%;
+        height: auto;
     }
 }
 
 #posts {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: transparent;
-    width: 80%;
-    margin: auto;
+    max-width: 80%;
+    margin: 0 auto;
     min-height: calc(100vh - 1em);
 }
   
 .post-widget {
     margin: 2em;
-    width: 90%;
     background-color: $parchment;
     border-radius: 15px;
     overflow: hidden;
@@ -40,12 +40,12 @@
         background-color: $pine;
     }
 
-    @media (min-width: 800px) {
-        width: calc(50% - 64px);
+    @media (min-width: 900px) {
+        width: calc(40%);
     }
 
     @media (min-width: 1200px) {
-        width: calc(33.33% - 66px); 
+        width: 27.9%; 
     }
 
     a {
