@@ -8,13 +8,26 @@
       border-top: 1px solid $bistre;
       display: flex;
       align-items: center;
-      padding: 2em 0;
+
+      &:hover {
+        background-color: $tangerine;
+        color: $parchment;
+
+        a {
+          text-decoration: none;
+          color: $parchment;
+        }
+      }
+
+      a {
+        width: 100%;
+        padding: 2em 0;
+      }
   
       .posts-list-entry {
         display: flex; 
         align-items: center; 
         justify-content: space-between;
-        width: 100%;
         font-family: $headerFont;
 
         h2, p {
@@ -30,10 +43,6 @@
       a {
         text-decoration: none;
         color: $bistre;
-
-        &:hover {
-          color: $tangerine;
-        }
       }
     } 
 

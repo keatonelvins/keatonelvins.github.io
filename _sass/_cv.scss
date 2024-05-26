@@ -8,35 +8,36 @@
         flex-direction: column;
         min-height: calc(100vh);
 
-        h2 {
-            line-height: 1.9rem;
-            font-family: $titleFont;
-            font-size: 3rem;
-            letter-spacing: 0.1em;
-            color: $parchment;
-            background-color: $cerulean;
-            padding-left: 0.5em;
-            padding-top: 1em;
-        }
-
         a {
             color: $cerulean;
             text-decoration: none;
         }
 
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+
         h3 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-bottom: 0;
         }
 
         h4 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-bottom: 0;
         }
 
+        h5 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
         p {
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
         }
 
         li {
