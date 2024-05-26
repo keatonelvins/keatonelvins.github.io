@@ -1,85 +1,48 @@
 .about {
-    .about-header {
-        display: flex;
-        justify-content: left;
-        align-items: end;
-        text-align: left;
-        margin: auto;
-        min-height: 100vh;
-        font-family: $headerFont;
-        font-size: 20rem;
-        background-color: $parchment;
+    display: flex;
 
-        p {
-            line-height: 75%;
-            margin: 0;
+    .profile-pic {
+        position: fixed;
+        width: 30%; 
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        .background-rectangle {
+            position: fixed;
+            width: 20%;
+            height: 50%;
+            background-color: $cerulean;
+            z-index: 1;
         }
+    }
+    
+    .profile-pic img {
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        border-radius: 50%;
+        z-index: 2;
     }
 
     .bio {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: 75%;
-        flex-direction: column;
-        height: 100vh;
+        margin-left: 30%;
+        padding: 2em 3em 3em;
+        font-size: 2rem;
 
-        .content {
-            margin: auto;
-            margin-bottom: 0;
-
-            h2 {
-                line-height: 1.9rem;
-                font-family: $titleFont;
-                font-size: 3rem;
-                letter-spacing: 0.1em;
-                color: $parchment;
-                background-color: $cerulean;
-                padding-left: 0.5em;
-                padding-top: 1em;
-            }
-    
-            a {
-                color: $cerulean;
-                text-decoration: none;
-            }
-    
-            h3 {
-                font-size: 2.5rem;
-            }
-    
-            p {
-                font-size: 2rem;
-            }
-    
-            li {
-                font-size: 2rem;
-                margin-bottom: 0.5em; 
-            }
-    
-            li:last-child {
-                margin-bottom: 0;
-            }
+        a {
+            color: $cerulean;
+            text-decoration: none;
         }
-    
-        .footer {
-            display: flex;
-            justify-content: center;
-            margin-bottom: auto;
-            width: 75%;
-            flex-direction: column;
-            text-align: center;
-            font-size: 2rem;
-            margin: auto;
-    
-            p {
-                margin-top: 0;
-            }
-            
-            a {
-                color: $cerulean;
-                text-decoration: none;
-            }
+
+        li {
+            margin-bottom: 0.5em; 
+        }
+
+        li:last-child {
+            margin-bottom: 0;
         }
     }
 }

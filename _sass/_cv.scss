@@ -1,22 +1,9 @@
 .cv {
-    .cv-header {
-        display: flex;
-        justify-content: left;
-        align-items: end;
-        min-height: 100vh;        
-        font-family: $headerFont;
-        font-size: 20rem;
-
-        p {
-            line-height: 75%;
-            margin: 0;
-        }
-    }
-
     .content {
         display: flex;
         justify-content: center;
         margin: auto;
+        margin-top: 3em;
         width: 75%;
         flex-direction: column;
         min-height: calc(100vh);

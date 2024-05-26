@@ -2,14 +2,11 @@
 layout: default
 ---
 <div class="about">
-  <div class="about-header"><p>about me</p></div>
+  <div class="profile-pic">
+    <div class="background-rectangle"></div>
+    <img src="{{ site.baseurl }}/assets/art/headshot.jpg" alt="{{ headshot }}">
+  </div>
   <div class="bio">
-    <div class="content">
-      {{ content }}
-    </div>
-    <div class="footer">
-      <p>keatone at gmail dot com</p>
-      <a href="https://www.linkedin.com/in/keatonelvins/">connect with me</a>
-    </div>
+    {{ content }}
   </div>
 </div>

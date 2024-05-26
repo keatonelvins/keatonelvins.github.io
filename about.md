@@ -12,3 +12,5 @@ Hi! I'm a Master's student at NYU's Courant Institute of Mathematical Sciences f
 I'm a big believer in learning through teaching. Poke around on here for my thoughts on some interesting papers, notes for whatever I'm working on, or anything else that came to mind.
 
 In my free time, I love to read and [take photos](https://www.keat.one). I'm also very interested in music and plan to do more side projects as part of the Spotify developer community. Feel free to reach out if you want to chat!
+
+keatone at gmail dot com
