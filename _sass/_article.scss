@@ -1,4 +1,7 @@
 article.post {
+  background-color: $chiffon;
+  min-height: 100vh;
+
   .post-header {
     display: flex;
     flex-direction: column;
@@ -23,7 +26,6 @@ article.post {
   }
 
   .post-content {
-    background-color: $chiffon;
     width: 50%;
     margin: auto;
     font-size: 1.25rem;
