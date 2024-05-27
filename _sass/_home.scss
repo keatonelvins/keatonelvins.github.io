@@ -54,7 +54,30 @@
 
     a {
         text-decoration: none;
-        width: 100%
+        width: 100%;
+
+        .post-info {
+            text-align: left;
+            font-size: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-family: $bodyFont;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+    
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 1.3rem;
+                font-weight: 700;
+                font-family: $headerFont;
+            }
+
+            p {
+                margin-top: 0.5rem;
+                margin-bottom: 0;
+            }
+        }
     }
 
     a:any-link {
@@ -71,21 +94,5 @@
         display: block;
         width: 100%;
         height: auto;
-    }
-
-    .post-info {
-        text-align: left;
-        font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-family: $bodyFont;
-
-        h2 {
-            margin: 0;
-            padding: 0;
-            font-size: 1.3rem;
-            font-weight: 700;
-            font-family: $headerFont;
-        }
     }
 }
