@@ -21,7 +21,7 @@ Software Development Engineer @ Amazon AI
 
 Software Development Intern @ Amazon AI
 
-Machine Learning Engineer Intern @ Softpath Systems
+Machine Learning Engineer Intern @ Softpath System
 
 Academic Intern @ Edlyft
 
