@@ -8,7 +8,7 @@ tag: "deep learning"
 
 *the following is a work in progress*
 
-In the realm of statistics and machine learning (or souped-up statistics), we have developed a deep, classical understanding of the *bias-variance tradeoff*. But its application in deep learning is slightly more alchemic (as we'll see later). Let's start with what we understand well.
+In the realm of statistics and machine learning, we have developed a deep, classical understanding of the *bias-variance tradeoff*. But its application in deep learning is slightly more alchemic (as we'll see later). Let's start with what we understand well.
 
 If we imagine we've run through the archetypal ML training cookbook and produced some predictor $$f_{\hat{\theta}}$$ using data $$X, Y$$, we will want to evaluate its performance. At test time, we look at the error, $$Y - f_{\hat{\theta}}(x)$$, and now have to analyze how we did. There are three main sources of error:
 

@@ -18,7 +18,6 @@ title: "home"
           <img src="{{ site.baseurl }}/assets/thumbnails/{{ post.image_name }}.jpg" alt="{{ post.title }}">
         {% endif %}
         <div class="post-info">
-          <p>{{ post.category }}</p>
           <h2>{{ post.title }}</h2>
           <p>{{ post.date | date_to_string | downcase}}</p>
         </div>

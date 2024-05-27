@@ -16,27 +16,57 @@
         a {
           text-decoration: none;
           color: $parchment;
+
+          .posts-list-entry {
+            .post-tag {
+              h3 {
+                border: 1px solid $parchment;
+              }
+            }
+          }
         }
       }
 
       a {
         width: 100%;
-        padding: 2em 0;
+        padding: 1em 0;
       }
   
       .posts-list-entry {
         display: flex; 
         align-items: center; 
-        justify-content: space-between;
         font-family: $headerFont;
+        margin: 0;
 
-        h2, p {
-          margin: 0;
-          padding: 0 0.8rem;
+        h2 {
+          margin-left: 2rem;
+          margin-right: 2rem;
+          width: 65%;
         }
 
         p {
+          margin-left: 1rem;
+          margin-right: 2rem;
+          text-align: right;
+          width: 10%;
           font-family: $bodyFont;
+        }
+
+        .post-tag {
+          width: 25%;
+          text-align: right;
+
+          h3 {
+            font-size: 1rem;
+            font-weight: normal;
+            padding: 0.2rem 0.5rem;
+            display: inline-block;
+            text-align: center;
+            width: auto;
+            font-family: $bodyFont;
+            border: 1px solid $bistre;
+            border-radius: 2rem;
+          }
         }
       }
 
