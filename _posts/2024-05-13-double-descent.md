@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "qualitatively different sources of error and double descent"
+title: "six flags: double descent"
 image: true
+image_name: "jetpack"
+tag: "deep learning"
 ---
 
 *the following is a work in progress*

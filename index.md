@@ -9,17 +9,13 @@ title: "home"
 </div>
 
 {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
-{% assign total_images = posts_with_images | size %}
 
-{% assign counter = 0 %}
 <section id="posts">
   {% for post in site.posts %}
     <div class="post-widget">
       <a href="{{ post.url }}">
         {% if post.image %}
-          {% assign idx = total_images | minus: counter %}
-          <img src="{{ site.baseurl }}/assets/thumbnails/{{ idx }}.jpg" alt="{{ post.title }}">
-          {% assign counter = counter | plus: 1 %}
+          <img src="{{ site.baseurl }}/assets/thumbnails/{{ post.image_name }}.jpg" alt="{{ post.title }}">
         {% endif %}
         <div class="post-info">
           <p>{{ post.category }}</p>

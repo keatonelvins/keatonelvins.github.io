@@ -2,6 +2,8 @@
 layout: post
 title: "beelining in low-rank structures"
 image: true
+image_name: "butterflies"
+tag: "paper response"
 ---
 
 *the following is a work in progress*
