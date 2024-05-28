@@ -20,7 +20,7 @@
     background-color: transparent;
     max-width: 80%;
     margin: 0 auto;
-    min-height: calc(100vh - 1em);
+    min-height: 100vh;
 }
   
 .post-widget {
@@ -38,18 +38,6 @@
         transform: scale(1.02);
         transition: all 0.3s ease;
         background-color: $pine;
-    }
-
-    @media (min-width: 0px) {
-        width: 100%;
-    }
-    
-    @media (min-width: 600px) {
-        width: 45%;
-    }
-
-    @media (min-width: 1000px) {
-        width: 29%;
     }
 
     a {
@@ -94,5 +82,17 @@
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    @media (min-width: 0px) {
+        width: 100%;
+    }
+    
+    @media (min-width: 600px) {
+        width: 45.8%;
+    }
+
+    @media (min-width: 1000px) {
+        width: 29.1%;
     }
 }
