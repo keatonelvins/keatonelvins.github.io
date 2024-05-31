@@ -7,53 +7,47 @@ article.post {
     display: flex;
     width: 100%;
     background-color: $parchment;
+    margin-top: 3rem;
 
-    .post-details {
+    .post-thumbnail {
       display: flex;
-      margin-top: 5rem;
-      margin-bottom: 2rem;
-      width: 60%;
-      margin-left: 20%;
-      margin-right: 20%;
 
-      .post-thumbnail {
-        display: flex;
-        width: 50%;
-
-        img {
-          margin: 0;
-          width: auto;
-          height: auto;
-          max-height: 60vh;
-          max-width: 100%;
-        }
-
-        @media (max-width: 900px) {
-          width: 0%;
-
-          img {
-            display: none;
-          }
-        }
+      img {
+        margin: 0;
+        width: calc(25vw - 2rem);
+        padding: 1rem;
       }
 
-      .post-description {
-        align-self: flex-end;
-        text-align: left;
-        margin-left: 2rem;
-        min-width: 50%;
+      @media (max-width: 1200px) {
+        width: 0%;
 
-        h1 {
-          margin-top: 0;
-          margin-bottom: 1rem;
-          font-size: 3rem;
-          font-family: $headerFont;
+        img {
+          display: none;
         }
-    
-        p {
-          margin: 0;
-          font-size: 1.8rem;
-        }
+      }
+    }
+
+    .post-description {
+      text-align: left;
+      align-self: flex-end;
+      width: 75%;
+
+      h1 {
+        font-size: 5rem;
+        font-family: $headerFont;
+        margin: 0;
+      }
+  
+      p {
+        font-size: 1.5rem;
+        font-family: $bodyFont;
+        margin: 0;
+      }
+
+      @media (max-width: 1200px) {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
       }
     }
   }
@@ -63,7 +57,6 @@ article.post {
     margin: auto;
     font-size: 1.25rem;
     line-height: 2;
-    padding: 0.5em 3em 1em 3rem;
     font-family: $bodyFont;
 
     a {
