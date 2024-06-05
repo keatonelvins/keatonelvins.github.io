@@ -8,15 +8,15 @@ If you get a 404, keep trying! Here is the first riddle:
 
 Where the golden fog alights,
 
-By a bridge in morning light,
+By a gate in morning light,
 
 I stand tall with ancient pride,
 
 Captive, cloistered, I reside.
 
-Once I roamed open lands,
+Once I roamed in open lands,
 
-Now in silicon, I stand.
+In a narrow strip I stand.
 
 A tasty snack as some would say,
 
