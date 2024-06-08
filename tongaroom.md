@@ -11,10 +11,10 @@ Yearning for the perfect bite, from croissants to kouign amanns,
 
 Freshly baked delights in sight, but where am I? The name is gone,
 
-A scone that shatters into crumbs and cookies with a fudgy core,
+A scone that shatter into crumbs, cookies with a fudgy core,
 
-Really now my mind is numb, there simply must be deeper lore
+Really now my mind is numb, could this be some acrostic lore?
 
 Everything a dream come true, but still I’m caught in memory,
 
-Reaching, grasping, searching now, is this Acrostic Bakery?
+Reaching, grasping, searching now, what is this fragrant bakery?

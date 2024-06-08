@@ -2,10 +2,14 @@
 layout: pah
 ---
 
-YOU DID IT YESSSS. Here is your prize!! Download quick!!
+Pah you are scintillating! A sprightly intelligence! Time to guess my number!
 
-<img src="{{ site.baseurl }}/assets/art/snoopy.gif">
+All three digits are powers of two
 
-[DOWNLOAD-NOW-u8dfj39fpxu43_chinese-virus.exe]({{ site.url }}/secret/whatcoulditbe.mp3)
+All three digits are in descending order
 
-(this may also be redeemed for one B. Patisserie (or equivalent) bakery bonanza on me!)
+All three digits sum to 13
+
+What is it?
+
+Hint: the powers of 2 are [..., 1/4, 1/2, 1, 2, 4, ...]

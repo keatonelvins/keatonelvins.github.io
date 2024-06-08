@@ -1,10 +1,26 @@
 ---
 layout: pah
 ---
-Holy smokes Pah, you're unbeatable!! Almost there, just one more puzzle!
+Holy smokes Pah, you're unbeatable!! The mind! The speed! What about this one!
 
 fmoae aduzaoa
 
-If you're feeling stuck, Julius Caesar always used to say "When you fail, try, try again"
+Read below for hints!
+
+--HINTS--
+
+--HINTS--
+
+--HINTS--
+
+--HINTS--
+
+--HINTS--
+
+--HINTS--
+
+--HINTS--
+
+If you're feeling stuck, remember that Caesar never gave up when things got tough!
 
 And if you're still stuck, maybe try reading your bday card again!
