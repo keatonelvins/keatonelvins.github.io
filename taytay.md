@@ -7,25 +7,21 @@ Well done Inspector Meepah! It's time for your final puzzle!
 
 The doors to Seabright Manor open with a slow groan. The lobby is dimly lit, cold, with thick rugs on the floor and shelves caked with dust. On a whim, you push open the ornate door on the right and enter the game room. Several large men are milling around and a few more are sitting in deep antique sofas by the fire. Six faces in all turn to look at you, sizing you up.
 
-“Miss, I’m sorry, miss”, one man peels away from a conversation and approaches you. “You can’t be in here, there’s been a murder.”
+“Miss, I’m sorry, miss”, one man peels away from a conversation and approaches you. “You can’t be in here, there’s been a killing.”
 
-“A murder?”
+“A killing?”
 
-“Yes, ma’am. A murder. The owner of this manor, Sir Hartly von Bartly, was killed last night. For your own safety, it’s best if you leave at once before the police arrive.” The man looks out the window worringly. 
+“Yes, ma’am. The owner of this manor, Sir Hartly von Bartly, died last night under mysterious circumstances. For your own safety, it’s best if you leave at once before the police arrive.” The man looks out the window worringly.
 
 “Sir Hartly is dead? But he was the man I came here to see! I heard he was the biggest lumby in all of Bigsurlafershire”, you say.
 
-“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the circumstances around his death are rather... supernatural. There are legends of werewolves in these hills, and last night, well, last night was a full moon...”
+“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the events around his death are rather... supernatural. Once a month, on the night of the full moon, Hartly will lock himself in this room to conduct his experiments. No one is to disturb him or attempt to gain entry until he opens the door in the morning. But this morning the door stayed locked. Eventually, we broke it down and found Hartly in here, well...”
 
-The men are all up now, facing Stapes. The fire crackles in the corner, sending dancing shadows throughout the decrepit room.
+The men are all up now, facing you and Stapes. The fire crackles in the corner, sending dancing shadows throughout the decrepit room.
 
-"A werewolf killed him?!", you exclaim. "Oh my, how dreadfully disturbing. And his body? Was he torn to pieces?"
+"Describe what happened exactly", you instruct the butler.
 
-Now one of the men chimes in.
-
-"Just a blow to the head, ma'am. But a frightfully powerful one at that", remarks Craigle.
-
-"A blow to the head, huh", you respond. After a moment's consideration, you continue. "And what was everyone here up to last night?"
+"Well, after he locked the door, I heard him raise the skylight as he always does to let the moonlight in." Stapes yanks on a chain that runs up to the rusty skylight above to illustrate his point. "In the morning, 
 
 “Last night, hmm”, starts Boxtodd. “I was in the observatory until very late watching the lunar occultation of Venus. But I had a hard time focusing as I kept hearing music from somewhere.”
 
