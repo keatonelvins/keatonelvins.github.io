@@ -3,7 +3,7 @@ layout: pah
 title: meep
 ---
 
-Well done Inspector Meepah! It's time for your final puzzle!
+Well done Inspector Meepah! It's time for your final puzzle! The Case of the Lifeless Lumby!!
 
 The doors to Seabright Manor open with a slow groan. The lobby is dimly lit, cold, with thick rugs on the floor and shelves caked with dust. On a whim, you push open the ornate door on the right and enter the game room. Several large men are milling around and a few more are sitting in deep antique sofas by the fire. Six faces in all turn to look at you, sizing you up.
 
@@ -15,13 +15,23 @@ The doors to Seabright Manor open with a slow groan. The lobby is dimly lit, col
 
 “Sir Hartly is dead? But he was the man I came here to see! I heard he was the biggest lumby in all of Bigsurlafershire”, you say.
 
-“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the events around his death are rather... supernatural. Once a month, on the night of the full moon, Hartly will lock himself in this room to conduct his experiments. No one is to disturb him or attempt to gain entry until he opens the door in the morning. But this morning the door stayed locked. Eventually, we broke it down and found Hartly in here, well...”
+“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the events around his death are rather... supernatural. Once a month, on the night of the full moon, Hartly will lock himself in this room to conduct his experiments. No one is to disturb him or attempt to gain entry until he opens the door in the morning. But today, the door stayed locked. Eventually, we broke it down and found Hartly here, well...”
 
 The men are all up now, facing you and Stapes. The fire crackles in the corner, sending dancing shadows throughout the decrepit room.
 
 "Describe what happened exactly", you instruct the butler.
 
-"Well, after he locked the door, I heard him raise the skylight as he always does to let the moonlight in." Stapes yanks on a chain that runs up to the rusty skylight above to illustrate his point. "In the morning, 
+"Well, last night, after he locked the door, I heard him open the skylight to let the moonlight in." Stapes yanks on the chain that runs up to the rusty skylight to illustrate his point. "This morning, it was still open, and we found him dead on the floor beneath it, as if the light of the full moon had stuck him down. There's no doctor here, but he had clearly died from a heavy blow to the head."
+
+You give the chain a tug to see if you can close the skylight, but the links themselves are as thick as a llama's leg, and it barely budges. You decide to keep Stapes talking.
+
+"So he was in here, alone, all night, door locked from the inside. Then who killed him?", you ask.
+
+Stapes's gaze was fixed to the ground. "Even as his butler and friend, I can't say for sure what occult mischief he was getting up to in here. But, I do know he talked of demons and fairies sometimes. And madness. Something wasn't right, and like you said, no man could have done this."
+
+For the first time, your attention moves away from Stapes towards the rest of the men in the room.
+
+"And what was everyone else up to last night? Anyone see or hear anything?", you inquire. 
 
 “Last night, hmm”, starts Boxtodd. “I was in the observatory until very late watching the lunar occultation of Venus. But I had a hard time focusing as I kept hearing music from somewhere.”
 
