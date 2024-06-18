@@ -15,7 +15,7 @@ The doors to Seabright Manor open with a slow groan. The lobby is dimly lit, col
 
 “Sir Hartly is dead? But he was the man I came here to see! I heard he was the biggest lumby in all of Bigsurlafershire”, you say.
 
-“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the events around his death are rather... supernatural. Once a month, on the night of the full moon, Hartly would lock himself in this room to conduct his experiments. No one was to disturb him or attempt to gain entry until he opened the door in the morning. But today, the door stayed locked. Eventually, we broke it down and found Hartly here, well...”
+“Ah yes, his mustache was renowned throughout the region. And I, Stapes, his trusted butler, loved him like a brother. But you see, the events around his death are rather... supernatural. Once a month, on the night of the full moon, Hartly would lock himself in this room to conduct his experiments and charge his crystals. No one was to disturb him or attempt to gain entry until he opened the door in the morning. But today, the door stayed locked. Eventually, we broke it down and found Hartly here, well...”
 
 The men are all up now, facing you and Stapes. The fire crackles in the corner, sending dancing shadows throughout the decrepit room.
 
@@ -23,9 +23,9 @@ The men are all up now, facing you and Stapes. The fire crackles in the corner, 
 
 "Well, last night, after he locked the door, I heard him open the skylight to let the moonlight in." Stapes yanks on the chain that runs up to the rusty skylight to illustrate his point. "This morning, it was still open, and we found him dead on the floor beneath it, as if the light of the full moon had stuck him down. There's no doctor here, but he had clearly died from a heavy blow to the head."
 
-You give the chain a tug to see if you can close the skylight, but the links themselves are as thick as a llama's leg, and it barely budges. You decide to keep Stapes talking.
+You give the chain a tug to see if you can close the skylight, but the links themselves are as thick as a llama's lanky leg, and it barely budges. You decide to keep Stapes talking.
 
-"So he was in here, alone, all night, door locked from the inside. Then what killed him?", you ask.
+"So he was in here, alone, all night, door locked from the inside, charging his crystals. Then what killed him?", you ask.
 
 Stapes's gaze was fixed to the ground. "Even as his butler and friend, I can't say for sure what occult mischief he was getting up to in here. But, I do know he talked of demons and fairies sometimes. And madness. Something wasn't right, and like you may be implying, no man could have done this."
 
@@ -43,11 +43,11 @@ You run a finger though the dust built up on the windowsill and start pacing aro
 
 "I also did not hear the scream", says Stapes. "I was playing poker with Craigle in the greenhouse. When we split up, the music was still playing, and I continued up to my room for a drink and rest."
 
-"After poker, I went to the kitchen for a snack", provides Craigle. "Maybe I heard a scream, maybe I didn't. I was focused on my mortadella and mustard sandwich."
+"After poker, I went to the kitchen for a snack", provides Craigle. "Maybe I heard a scream, maybe I didn't. I was focused on my special hopper sandwich."
 
 The windows are all barred. You pass deer heads, chess boards, a heavy camera, all caked in dust. The attention of the room has moved to Vanlos, the last man to speak.
 
-"I didn't see or hear anything", begins Vanlos. "I was on a night swim in Elephant Seal Cove under the full moon. I got back late and went straight to bed."
+"I didn't see or hear anything", begins Vanlos. "I was on a night swim in Elephant Seal Cove under the full moon. I got back late, dried off, and went straight to bed."
 
 You continue your slow lap around the room and reach the far end where a long-unused fireman's axe leans against the brick. You pick it up and swing it a few times, testing its heft. After replacing it, you circle around to the pool table, toss one of the balls up and down a few times, and address the crowd.
 
