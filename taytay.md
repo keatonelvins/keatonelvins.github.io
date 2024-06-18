@@ -55,6 +55,10 @@ You continue your slow lap around the room and reach the far end where a long-un
 
 You turn away to the wall and run your eyes up the shelf. In the gleaming surface of the heavy goblet sitting at the top, you can see the reflections of each man in the room, their eyes on your back. Boadtoy looks nervous. Boxtodd and Vanlos are unreadable. Craigle is composed. Ranedear has his head in his hands, and Stapes stands ominously by the window. You see your own reflection in the polished silver, the freckles and ginger curls, but above all the determination in your gaze. There’s a lumby killer in this room, and you’ve seen enough.
 
+"You think that my lumby was mixed up with the occult, huh? Just because of some crystals? It's funny, occult also has another meaning. To occult is to cut off from view, to conceal. And it's clear to me someone in this room is concealing something themselves."
+
+You pause briefly, savoring the moment. This is what you live for.
+
 “Gentleman, I supposed it’s time for my introduction”, you begin. “I am Inspector S. J. Meepah. I solved the Caper of CDMX and the Mystery of Mont Blanc. I recovered the Lost Jewel of Danger Mountain. I journeyed to the Sweltering Snaeb and rode the Lascivious Llama. To me, this case is already closed. Not only do I know who the killer is, I can identify the murder weapon in this very room! The killer is … ACHOO.”
 
 Your dust allergy has gotten the better of you again, and in your moment of hesitation, one man bolts from the room. He makes it as far as the main courtyard before the police, who had just pulled up outside, see him fleeing the scene and tackle him to the ground. Justice has been served for the ghost of Sir Hartly von Bartly, and once again Inspector Meepah cracks the case.
