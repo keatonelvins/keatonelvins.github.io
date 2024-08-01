@@ -28,10 +28,6 @@ article.post {
     }
 
     .post-description {
-      text-align: left;
-      align-self: flex-end;
-      width: 75%;
-
       h1 {
         font-size: 5rem;
         font-family: $headerFont;
@@ -43,11 +39,41 @@ article.post {
         font-family: $bodyFont;
         margin: 0;
       }
+    }
 
+    &.image {
       @media (max-width: 1200px) {
+        margin-top: 3rem;
+      }
+
+      .post-description {
+        text-align: left;
+        align-self: flex-end;
+        width: 75%;
+
+        @media (max-width: 1200px) {
+          width: 100%;
+          text-align: center;
+          margin: 2rem;
+
+          h1 {
+            line-height: 4rem;
+          }
+        }
+      }
+    }
+
+    &.no-image {
+      margin-top: 3rem;
+
+      .post-description {
         width: 100%;
         text-align: center;
-        margin-top: 1rem;
+        margin: 2rem;
+
+        h1 {
+          line-height: 4rem;
+        }
       }
     }
   }
