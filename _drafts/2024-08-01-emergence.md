@@ -6,4 +6,5 @@ image_name: "gecko"
 tag: "fiction"
 ---
 
-...
+"Why would you say that?"
+

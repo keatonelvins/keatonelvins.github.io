@@ -1,0 +1,60 @@
+.reads-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.2em;
+  color: $bistre;
+
+  h1 {
+    font-size: 2rem;
+    font-family: $bodyFont;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+  }
+}
+
+.book-grid {
+  width: 80%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-cover {
+  width: calc(16.666% - 20px); // 6 columns for large screens
+  margin: 10px; 
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1200px) {
+  .book-cover {
+    width: calc(20% - 20px); // 5 columns
+  }
+}
+
+@media (max-width: 992px) {
+  .book-cover {
+    width: calc(25% - 20px); // 4 columns
+  }
+}
+
+@media (max-width: 768px) {
+  .book-cover {
+    width: calc(33.333% - 20px); // 3 columns
+  }
+}
+
+@media (max-width: 576px) {
+  .book-cover {
+    width: calc(50% - 20px); // 2 columns
+  }
+}
