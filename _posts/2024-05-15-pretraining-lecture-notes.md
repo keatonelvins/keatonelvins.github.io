@@ -5,4 +5,4 @@ image: false
 tag: "notes"
 ---
 
-Check out [these notes](https://inst.eecs.berkeley.edu/~cs182/sp23/assets/notes/scribe20.pdf) I wrote for the deep learning course at UC Berkeley! Since deep learning is still an emerging field, these notes serve as a psuedo-textbook for future iterations of the class.
+Check out [these notes]({{ site.baseurl }}/assets/posts/Nov_1__Lecture_Scribe_182.pdf) I wrote for the deep learning course at UC Berkeley! Since deep learning is still an emerging field, these notes serve as a psuedo-textbook for future iterations of the class.
