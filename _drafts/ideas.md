@@ -1,0 +1,3 @@
+- “how do distributed, trained networks of simple units that perform combined linear/non-linear operations work together to perform important computations”
+- dario response
+- kaleidiscope hypothesis
