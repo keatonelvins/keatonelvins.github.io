@@ -2,9 +2,7 @@
 layout: about
 title: about me
 ---
-I love to [read](/reads), [take photos](https://www.keat.one), and find flow states.
-
-I'm a big believer in learning through teaching. Poke around on here for my thoughts on some interesting papers, notes for what I'm working on, or anything else that came to mind.
+I love to [read](/reads) and [take photos](https://www.keat.one).
 
 Here are some problems occupying my brain space:
 
