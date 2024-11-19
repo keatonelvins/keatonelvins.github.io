@@ -13,11 +13,22 @@ This is an admittedly standard question. And clearly coming from a good place. B
 
 Do I think I made the **right** choice?
 
-Baked in is the assumption there is an empirically _correct_ branch on this binary tree. A branch that is identifiably true after getting up above the whole mess and looking back down on it.
+To answer this question, I would have to make three assumptions:
 
-Holy fallacious!!!
+- I can reasonably predict my parallel "current" state had I gone down a different branch of my decision tree.
+- I can reasonably extrapolate my actual current state and the parallel ones to the end of their branches to weigh their outcomes.
+- There is an empirically _correct_ branch.
 
-Imagine running DFS until you reach the first leaf node and then trying to provide anything useful about the graph as a whole.
+None of these assumptions make any sense to me!!
+
+When we make decisions, we apply some world model we've internalized as a fuzzy sim and play out many options. We do this in two ways:
+
+- Let our reasoning black box run it out. This looks like "...... -> turn left"
+- Explicity think through each step. This looks like "I need to head east, the sun is to my right, it's late in the day, I should -> turn left"
+
+We're pretty good at predicting future states. If I toss you an apple, the black box kicks into gear and you hand moves to intercept its arc.
+
+Imagine running DFS until you reach the first leaf node and then trying to describe anything useful about the graph as a whole.
 
 "There is no means of testing which decision is better, because there is no basis for comparison. We live everything as it comes, without warning, like an actor going on cold. And what can life be worth if the first rehearsal for life is life itself? That is why life is always like a sketch. No, 'sketch' is not quite the word, because a sketch is an outline of something, the groundwork for a picture, whereas the sketch that is our life is a sketch for nothing, an outline with no picture." - Milan Kundera
 
