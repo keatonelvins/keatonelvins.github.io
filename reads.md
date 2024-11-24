@@ -8,7 +8,7 @@ title: "reads"
 <div class="reads-container">
   {% assign book_covers = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2024'" %}
 
-  <h1>2024</h1>
+  <h1 id="2024">2024</h1>
 
   <div class="book-grid">
     {% for book in book_covers %}

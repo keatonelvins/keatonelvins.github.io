@@ -2,12 +2,16 @@
 layout: about
 title: about me
 ---
+In 2023, I graduated in EECS from UC Berkeley.
+
+In 2024, I co-founded [camfer](https://camfer.dev) 
+
+(see the similarity?!).
+
 I love to [read](/reads) and [take photos](https://www.keat.one).
 
-Here are some problems occupying my brain space:
+Outside of work, I'm mostly just interested in how the brain works. 
 
-* Agentic Behavior: How do we build agents that can learn and improve from their environment? What mental models do we need for multi-agent orchestration?
-* Reasoning: What factors play a role in eliciting reasoning abilities in language models? How can we gain concrete insight on the computation taking place?
-* Mechanistic Interpretability: What can we learn about emergent properties & conceptual gaps under this lens? What happens internally when models learn from execution feedback?
+If you know, please tell me! (I'm desperate)
 
 keaton at camfer dot dev

@@ -11,10 +11,14 @@
             "id": "626e5939dee61290",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ideas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ideas"
             }
           }
         ]
@@ -160,8 +164,10 @@
   },
   "active": "626e5939dee61290",
   "lastOpenFiles": [
-    "double-descent.md",
     "emergence.md",
+    "double-descent.md",
+    "2024-05-20-on-kaleidoscopes.md",
+    "2024-10-23-backtracking.md",
     "ideas.md"
   ]
 }
