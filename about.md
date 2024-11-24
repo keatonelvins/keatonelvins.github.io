@@ -2,7 +2,7 @@
 layout: about
 title: about me
 ---
-this is my website! i also have photos hosted [here](https://www.keat.one).
+this is my website! i also have photos hosted [here](https://sites.google.com/view/myfuji/fall-23).
 
 some info about me:
 - honors berkeley grad, studied EECS
