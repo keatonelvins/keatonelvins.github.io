@@ -59,6 +59,11 @@ article.post {
           h1 {
             line-height: 4rem;
           }
+
+          p {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+          }
         }
       }
     }
@@ -79,12 +84,17 @@ article.post {
   }
 
   .post-content {
-    width: 50%;
+    width: 60%;
     margin: auto;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     line-height: 2;
     font-family: $bodyFont;
     padding-bottom: 3rem;
+
+    @media (max-width: 1200px) {
+      width: 85%;
+      font-size: 1.15rem;
+    }
 
     a {
       text-decoration: none;
@@ -114,8 +124,11 @@ article.post {
     }
 
     // Math blocks
-    p:only-child > .MathJax {
+    p:only-child > mjx-container {
       padding: 40px;
+      max-width: 100%;
+      overflow-x: auto;
+      display: block !important;
     }
   }
 }

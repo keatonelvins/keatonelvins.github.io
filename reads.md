@@ -37,14 +37,14 @@ title: "reads"
     columnWidth: '.book-cover',
     percentPosition: true
   });
+  
+  elem.style.opacity = '0';
+  elem.style.transition = 'opacity 0.3s ease';
 
   var imgLoad = imagesLoaded(elem);
-  imgLoad.on('progress', function() {
-    msnry.layout();
-  });
-
   imgLoad.on('done', function() {
     msnry.layout();
+    elem.style.opacity = '1';
   });
 
   document.getElementById('bookRecommendationForm').addEventListener('submit', function(e) {

@@ -43,12 +43,6 @@
 
 @media (max-width: 992px) {
   .book-cover {
-    width: calc(25% - 20px); // 4 columns
-  }
-}
-
-@media (max-width: 768px) {
-  .book-cover {
     width: calc(33.333% - 20px); // 3 columns
   }
 }
@@ -141,7 +135,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .book-recommendation-form {
     width: 80%;
     padding: 1.5rem;
