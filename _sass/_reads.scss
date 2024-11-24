@@ -122,13 +122,13 @@
 
 .alert {
   position: fixed;
-  top: 20px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 1rem 2rem;
+  padding: 1.5rem 2.5rem;
   border-radius: 15px;
   font-family: $bodyFont;
-  font-size: 1.2rem;
+  font-size: 2rem;
   background-color: $chiffon;
   border: 1px solid $bistre;
   color: $bistre;
