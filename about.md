@@ -2,16 +2,19 @@
 layout: about
 title: about me
 ---
-In 2023, I graduated in EECS from UC Berkeley.
+this is my website! i also have photos hosted [here](https://www.keat.one).
 
-In 2024, I co-founded [camfer](https://camfer.dev) 
+some info about me:
+- honors berkeley grad, studied EECS
+- co-founded [camfer](https://camfer.dev)
+- currently based in SF
 
-(see the similarity?!).
+[books i've read](/reads)
 
-I love to [read](/reads) and [take photos](https://www.keat.one).
+[linkedin](https://www.linkedin.com/in/keatonelvins/)
 
-Outside of work, I'm mostly just interested in how the brain works. 
+[twitter](https://x.com/keatonelvins)
 
-If you know, please tell me! (I'm desperate)
+source code for site [here](https://github.com/keatonelvins/keatonelvins.github.io)
 
-keaton at camfer dot dev
+contact me: keaton at camfer dot dev
