@@ -26,6 +26,8 @@
 .book-cover {
   width: calc(16.666% - 20px); // 6 columns for large screens
   margin: 10px; 
+  opacity: 0;
+  transition: opacity 0.3s ease;
   
   img {
     width: 100%;

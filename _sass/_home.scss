@@ -33,6 +33,7 @@
     align-items: center;
     border: 1px solid $bistre;
     transition: all 0.3s ease;
+    opacity: 0;
 
     &:hover {
         transform: scale(1.02);

@@ -35,12 +35,14 @@ title: "home"
     percentPosition: true
   });
 
-  elem.style.opacity = '0';
-  elem.style.transition = 'opacity 0.3s ease';
-
   var imgLoad = imagesLoaded(elem);
   imgLoad.on('done', function() {
     msnry.layout();
-    elem.style.opacity = '1';
+
+    document.querySelectorAll('.post-widget').forEach((post, index) => {
+      setTimeout(() => {
+        post.style.opacity = '1';
+      }, index * 5);
+    });
   });
 </script>
