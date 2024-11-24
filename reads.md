@@ -4,6 +4,7 @@ title: "reads"
 ---
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <div class="reads-container">
   {% assign book_covers = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2024'" %}
@@ -17,6 +18,16 @@ title: "reads"
       </div>
     {% endfor %}
   </div>
+
+  <div class="book-recommendation-form">
+    <h2>anonymous book recs!! (go go go)</h2>
+    <form id="bookRecommendationForm" action="https://formspree.io/f/xdkollpk" method="POST">
+      <div class="form-group">
+        <input type="text" id="bookTitle" name="bookTitle" placeholder="don't be shy..." required>
+      </div>
+      <button type="submit">send!</button>
+    </form>
+  </div>
 </div>
 
 <script>
@@ -25,5 +36,50 @@ title: "reads"
     itemSelector: '.book-cover',
     columnWidth: '.book-cover',
     percentPosition: true
+  });
+
+  var imgLoad = imagesLoaded(elem);
+  imgLoad.on('progress', function() {
+    msnry.layout();
+  });
+
+  imgLoad.on('done', function() {
+    msnry.layout();
+  });
+
+  document.getElementById('bookRecommendationForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const form = this;
+    const formData = new FormData(form);
+    form.reset();
+
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.ok) {
+        const alert = document.createElement('div');
+        alert.className = 'alert';
+        alert.textContent = 'thanks for the rec! :^)';
+        document.body.appendChild(alert);
+
+        setTimeout(() => alert.classList.add('show'), 100);
+
+        setTimeout(() => {
+          alert.classList.remove('show');
+          setTimeout(() => alert.remove(), 300);
+        }, 3000);
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('oop, something went wrong :^/');
+    });
   });
 </script>

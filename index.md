@@ -3,6 +3,7 @@ layout: home
 title: "home"
 ---
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <div class="landing">
     <img src="{{ site.baseurl }}/assets/art/cover.jpg" alt="cover art">
@@ -32,5 +33,14 @@ title: "home"
     itemSelector: '.post-widget',
     columnWidth: '.post-widget',
     percentPosition: true
+  });
+
+  var imgLoad = imagesLoaded(elem);
+  imgLoad.on('progress', function() {
+    msnry.layout();
+  });
+
+  imgLoad.on('done', function() {
+    msnry.layout();
   });
 </script>
