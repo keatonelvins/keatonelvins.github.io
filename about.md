@@ -5,7 +5,7 @@ title: about me
 this is my website! i also have photos hosted [here](https://sites.google.com/view/myfuji/fall-23).
 
 some info about me:
-- honors berkeley grad, studied EECS
+- honors berkeley grad in eecs
 - co-founded [camfer](https://camfer.dev)
 - currently based in SF
 
