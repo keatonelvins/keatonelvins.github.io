@@ -38,11 +38,6 @@ title: "reads"
     percentPosition: true
   });
 
-  document.querySelectorAll('.book-cover').forEach(cover => {
-    cover.style.opacity = '0';
-    cover.style.transition = 'opacity 0.1s ease';
-  });
-
   var imgLoad = imagesLoaded(elem);
   imgLoad.on('done', function() {
     msnry.layout();
@@ -50,7 +45,7 @@ title: "reads"
     document.querySelectorAll('.book-cover').forEach((cover, index) => {
       setTimeout(() => {
         cover.style.opacity = '1';
-      }, index * 10); // 10ms delay between each cover
+      }, index * 50);
     });
   });
 

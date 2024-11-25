@@ -42,7 +42,7 @@ title: "home"
     document.querySelectorAll('.post-widget').forEach((post, index) => {
       setTimeout(() => {
         post.style.opacity = '1';
-      }, index * 5);
+      }, index * 50);
     });
   });
 </script>

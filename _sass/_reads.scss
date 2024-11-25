@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 4.2em;
+  padding-top: 4.7em;
   color: $bistre;
 
   h1 {
@@ -27,7 +27,7 @@
   width: calc(16.666% - 20px); // 6 columns for large screens
   margin: 10px; 
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
   
   img {
     width: 100%;

@@ -9,15 +9,7 @@
         align-items: center;
 
         @media (max-width: 1000px) {
-            width: 0%;
-
-            img {
-                display: none;
-            }
-
-            .anchor {
-                display: none;
-            }
+            width: 50%
         }
 
         img {
@@ -34,21 +26,27 @@
             height: 65%;
             background-color: $cerulean;
             z-index: 1;
+
+            @media (max-width: 1000px) {
+                height: 50%;
+            }
         }
     }
 
     .bio {
         width: 60%;
         margin-left: 40%;
-        padding: 4rem 3rem;
+        margin-top: 4.2rem;
+        padding: 2rem 3rem;
         font-size: 1.8rem;
         font-family: $bodyFont;
         color: $bistre;
 
         @media (max-width: 1000px) {
-            width: 100%;
-            margin-left: 0;
-            padding: 5rem;
+            width: 50%;
+            margin-left: 50%;
+            padding: 1rem;
+            font-size: 1.3rem;
         }
 
         a {
