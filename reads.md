@@ -9,6 +9,16 @@ title: "reads"
 <div class="reads-container">
   {% assign book_covers = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2024'" %}
 
+  <div class="book-recommendation-form">
+    <h2>anonymous book recs!! (go go go)</h2>
+    <form id="bookRecommendationForm" action="https://formspree.io/f/xdkollpk" method="POST">
+      <div class="form-group">
+        <input type="text" id="bookTitle" name="bookTitle" placeholder="don't be shy, you're already here..." required>
+      </div>
+      <button type="submit">send!</button>
+    </form>
+  </div>
+
   <h1 id="2024">2024</h1>
 
   <div class="book-grid">
@@ -17,16 +27,6 @@ title: "reads"
         <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
       </div>
     {% endfor %}
-  </div>
-
-  <div class="book-recommendation-form">
-    <h2>anonymous book recs!! (go go go)</h2>
-    <form id="bookRecommendationForm" action="https://formspree.io/f/xdkollpk" method="POST">
-      <div class="form-group">
-        <input type="text" id="bookTitle" name="bookTitle" placeholder="don't be shy..." required>
-      </div>
-      <button type="submit">send!</button>
-    </form>
   </div>
 </div>
 
@@ -73,7 +73,7 @@ title: "reads"
       if (data.ok) {
         const alert = document.createElement('div');
         alert.className = 'alert';
-        alert.textContent = 'thanks for the rec! :^)';
+        alert.textContent = 'thank you! <333';
         document.body.appendChild(alert);
 
         setTimeout(() => alert.classList.add('show'), 100);
@@ -81,7 +81,7 @@ title: "reads"
         setTimeout(() => {
           alert.classList.remove('show');
           setTimeout(() => alert.remove(), 300);
-        }, 3000);
+        }, 4000);
       }
     })
     .catch(error => {

@@ -21,7 +21,7 @@ the list goes on. so, let's tally up the writing i actually did now!
 - 3 unfinished short stories
 - one (1) bad essay trying to draw an analogy between backtracking in dfs and retrospect/greener grass thinking
 
-damn.
+oop.
 
 to my credit, this was mostly compressed into the first half of the year. my june-october 2024 yc epoch was a markedly single-tracked existence. i've been a little bit better about making time for system 2 + creative thinking, but as of yet have not made any grounds on improving my writing output. 
 
