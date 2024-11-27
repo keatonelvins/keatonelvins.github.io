@@ -1,13 +1,10 @@
 ---
 ---
 
-@import "variables";
-
-@import 
-    "about",
-    "reads",
-    "cv",
-    "article",
-    "base",
-    "home",
-    "index";
+@import "variables"; // variables must be imported first
+@import "about";
+@import "article";
+@import "base";
+@import "home";
+@import "index";
+@import "reads";
