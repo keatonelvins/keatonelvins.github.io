@@ -59,7 +59,7 @@ I may have gotten a little sidetracked here trying to demonstrate that the techn
 1. There is too much information online to be manually sifted by a human.
 2. We use sites that sift, aggregate, and surface the information we want to see.
 3. These sites are directly incentivized to provide this content in its maximally engaging and addicting form.
-4. Current and future generations will increasingly struggle with practicing moderation.
+4. Current and future generations will increasingly struggle with practicing moderation using these.
 
 Are we doomed? If I want to know what's happening outside the room I'm currently in, do I need to dare the cocomelon'd doomscroll slopfest and risk getting sucked in for hours?
 
