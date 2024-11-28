@@ -69,8 +69,8 @@ I'm not trying to come across as anti-internet, anti-social media. **Anti-Entert
 
 But as nice as it is, I think we as individuals need to decide if our online lives are going to be fundamentally passive or not. We don't have the luxury of a parental figure to swoop down and take our phones away and send us outside. We're going to need to vote with our screen time. We’re going to need to get better about choosing, about exercising taste and steeling our neural hardware in a way that lets us be online and also be alive.
 
-> DFW: So as the Internet grows in the next 10, 15 years... and virtual reality pornography becomes a reality, we're gonna have to develop some real machinery inside our guts... to turn off pure, unalloyed pleasure. Or, I don't know about you, I'm gonna have to leave the planet. 'Cause the technology is just gonna get better and better. And it's gonna get easier and easier... and more and more convenient and more and more pleasurable... to sit alone with images on a screen... given to us by people who do not love us but want our money. And that's fine in low doses, but if it's the basic main staple of your diet, you're gonna die.
+> *DFW: So as the Internet grows in the next 10, 15 years... and virtual reality pornography becomes a reality, we're gonna have to develop some real machinery inside our guts... to turn off pure, unalloyed pleasure. Or, I don't know about you, I'm gonna have to leave the planet. 'Cause the technology is just gonna get better and better. And it's gonna get easier and easier... and more and more convenient and more and more pleasurable... to sit alone with images on a screen... given to us by people who do not love us but want our money. And that's fine in low doses, but if it's the basic main staple of your diet, you're gonna die.*
 >
-> David Lipsky: Well, come on.
+> *David Lipsky: Well, come on.*
 >
-> DFW: In a meaningful way, you're going to die.
+> *DFW: In a meaningful way, you're going to die.*
