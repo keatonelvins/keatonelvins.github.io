@@ -40,13 +40,15 @@
 
         @media (max-width: 1200px) {
             width: 50%;
-            margin: 0 0 0 50%;
+            margin-left: 50%;
             padding: 1rem;
-            font-size: 2.2rem;
+            font-size: min(4vw, 2.2rem);
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
+            overflow-y: auto;
+            word-wrap: break-word;
 
             p { 
                 margin-bottom: 0.5rem;
