@@ -2,15 +2,13 @@
     display: flex;
 
     .profile-pic {
-        display: flex;
         position: fixed;
+        display: flex;
         width: 40%;
         height: 100vh;
         align-items: center;
 
-        @media (max-width: 1200px) {
-            width: 50%
-        }
+        @media (max-width: 1200px) { width: 50%; }
 
         img {
             margin: auto;
@@ -27,9 +25,7 @@
             background-color: $cerulean;
             z-index: 1;
 
-            @media (max-width: 1200px) {
-                height: 30%;
-            }
+            @media (max-width: 1200px) { height: 30%; }
         }
     }
 
@@ -44,21 +40,17 @@
 
         @media (max-width: 1200px) {
             width: 50%;
-            margin-left: 50%;
+            margin: 0 0 0 50%;
             padding: 1rem;
             font-size: 2.2rem;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 100vh;
-            margin-top: 0;
 
-            p {
+            p { 
                 margin-bottom: 0.5rem;
-                
-                &:last-child {
-                    margin-bottom: 0; 
-                }
+                &:last-child { margin-bottom: 0; }
             }
         }
 
@@ -68,11 +60,8 @@
         }
 
         li {
-            margin-bottom: 0.5rem; 
-        }
-
-        li:last-child {
-            margin-bottom: 0;
+            margin-bottom: 0.5rem;
+            &:last-child { margin-bottom: 0; }
         }
     }
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "reads"
+title: reads
 ---
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>

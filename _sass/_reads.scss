@@ -1,8 +1,8 @@
+// Base container
 .reads-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding-top: 4.7em;
   color: $bistre;
 
@@ -15,6 +15,7 @@
   }
 }
 
+// Book grid layout
 .book-grid {
   width: 80%;
   margin-bottom: 5rem;
@@ -25,63 +26,46 @@
 
 .book-cover {
   width: calc(16.666% - 20px);
-  margin: 10px; 
+  margin: 10px;
   opacity: 0;
   transition: opacity 0.5s ease;
   
   img {
-    border-radius: 10px;
-    border: 1px solid $bistre;
-    overflow: hidden;
-    display: block;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid $bistre;
     box-shadow: 2px 2px 0px $bistre;
   }
 }
 
-@media (max-width: 1200px) {
-  .book-cover {
-    width: calc(20% - 20px); // 5 columns
-  }
-}
+// Responsive grid
+@media (max-width: 1200px) { .book-cover { width: calc(20% - 20px); } }
+@media (max-width: 992px)  { .book-cover { width: calc(33.333% - 20px); } }
+@media (max-width: 576px)  { .book-cover { width: calc(50% - 20px); } }
 
-@media (max-width: 992px) {
-  .book-cover {
-    width: calc(33.333% - 20px); // 3 columns
-  }
-}
-
-@media (max-width: 576px) {
-  .book-cover {
-    width: calc(50% - 20px); // 2 columns
-  }
-}
-
+// Recommendation form
 .book-recommendation-form {
   width: 60%;
-  margin-top: 0rem;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
   padding: 1.5rem 2rem;
   background-color: $parchment;
-  border-radius: 15px;
   border: 1px solid $bistre;
-  
-  form {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-  }
+  border-radius: 15px;
   
   h2 {
     font-family: $bodyFont;
     font-size: 1.5rem;
-    color: $bistre;
-    margin: 0;
     font-weight: 400;
+    color: $bistre;
+    margin: 0 0 1rem;
     white-space: nowrap;
-    margin-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
   }
 
   .form-group {
@@ -97,20 +81,18 @@
       border-radius: 8px;
       background-color: $chiffon;
       
-      &:focus {
-        outline: none;
-      }
+      &:focus { outline: none; }
     }
   }
 
   button {
     background-color: $cerulean;
     color: #FFFFF4;
-    border: none;
-    border-radius: 15px;
-    padding: 0.7rem 0.7rem;
+    padding: 0.7rem;
     font-family: $bodyFont;
     font-size: 1.1rem;
+    border: none;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
 
@@ -121,25 +103,24 @@
   }
 }
 
+// Alert styles
 .alert {
   position: fixed;
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
   padding: 1.5rem 2.5rem;
-  border-radius: 15px;
   font-family: $bodyFont;
   font-size: 2rem;
   background-color: $chiffon;
   border: 1px solid $bistre;
+  border-radius: 15px;
   color: $bistre;
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 1000;
   
-  &.show {
-    opacity: 1;
-  }
+  &.show { opacity: 1; }
 }
 
 @media (max-width: 900px) {
@@ -147,8 +128,6 @@
     width: 80%;
     padding: 1.5rem;
     
-    h2 {
-      font-size: 1.2rem;
-    }
+    h2 { font-size: 1.2rem; }
   }
 }

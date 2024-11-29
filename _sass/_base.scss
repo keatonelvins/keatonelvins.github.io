@@ -11,19 +11,16 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
+  &::-webkit-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: none;
+  }
 }
 
 header {
   position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
+  inset: 0 0 auto 0;
   z-index: 1000;
 }
 
@@ -31,23 +28,22 @@ header {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%; 
-  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
 
   li a {
     display: block;
+    padding: 0.8em 1rem;
     color: $bistre;
     text-align: center;
-    padding: 0.8em 1rem;
     text-decoration: none;
     font-family: $headerFont;
     font-size: 1.7rem;
-  }
 
-  li a:hover {
-    color: $parchment;
-    background-color: $tangerine;
+    &:hover {
+      color: $parchment;
+      background-color: $tangerine;
+    }
   }
 }
