@@ -1,17 +1,23 @@
 .about {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 0;
+    max-width: 100%;
+    padding-top: 4.2rem;
+
+    @media (max-width: 1200px) {
+        grid-template-columns: 50% 50%;
+        padding-top: 4.2rem; 
+    }
 
     .profile-pic {
-        position: fixed;
+        position: relative;
         display: flex;
-        width: 40%;
-        height: 100vh;
-        align-items: center;
-
-        @media (max-width: 1200px) { width: 50%; }
+        align-items: center; 
+        justify-content: center;
+        padding: 0 2rem;
 
         img {
-            margin: auto;
             width: 75%;
             height: auto;
             border-radius: 50%;
@@ -19,41 +25,28 @@
         }
 
         .anchor {
-            position: fixed;
-            width: 25%;
-            height: 65%;
+            position: absolute;
+            width: 50%;
+            height: 75%;
             background-color: var(--link);
             z-index: 1;
+            left: 0;
+            top: 50%;  // Center vertically
+            transform: translateY(-50%); 
 
-            @media (max-width: 1200px) { height: 30%; }
+            @media (max-width: 1200px) { height: 35%; }
         }
     }
 
     .bio {
-        width: 60%;
-        margin-left: 40%;
-        margin-top: 4.2rem;
-        padding: 2rem 3rem;
+        padding: 0 3rem;
         font-size: 1.8rem;
         font-family: $bodyFont;
         color: var(--text);
 
         @media (max-width: 1200px) {
-            width: 50%;
-            margin-left: 50%;
-            padding: 1rem;
+            padding: 0 1rem;
             font-size: min(4vw, 2.2rem);
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            overflow-y: auto;
-            word-wrap: break-word;
-
-            p { 
-                margin-bottom: 0.5rem;
-                &:last-child { margin-bottom: 0; }
-            }
         }
 
         a {
