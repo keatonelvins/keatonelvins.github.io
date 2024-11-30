@@ -1,8 +1,18 @@
 $headerFont: 'Erode', serif;
 $bodyFont: 'Sentient', serif;
 
-$bistre: #3D2B1F;
-$parchment: #F1E9D2;
-$chiffon: #fff5e6;
-$tangerine: #eb5600;
-$cerulean: #3D909D;
+:root {
+  --text: #3D2B1F;
+  --background: #F1E9D2;
+  --surface: #fff5e6;
+  --accent: #eb5600;
+  --link: #3D909D;
+}
+
+.dark {
+  --text: #FFF2E4;
+  --background: #162114;
+  --surface: #172911;
+  --accent: #ffd800;
+  --link: #F09800;
+}

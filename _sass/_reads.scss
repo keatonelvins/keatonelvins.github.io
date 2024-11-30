@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 4.7em;
-  color: $bistre;
+  color: var(--text);
 
   h1 {
     font-size: 2rem;
@@ -34,8 +34,8 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
-    border: 1px solid $bistre;
-    box-shadow: 2px 2px 0px $bistre;
+    border: 1px solid var(--text);
+    box-shadow: 2px 2px 0px var(--text);
   }
 }
 
@@ -49,15 +49,15 @@
   width: 60%;
   margin: 0 0 1rem;
   padding: 1.5rem 2rem;
-  background-color: $parchment;
-  border: 1px solid $bistre;
+  background-color: var(--background);
+  border: 1px solid var(--text);
   border-radius: 15px;
   
   h2 {
     font-family: $bodyFont;
     font-size: 1.5rem;
     font-weight: 400;
-    color: $bistre;
+    color: var(--text);
     margin: 0 0 1rem;
     white-space: nowrap;
   }
@@ -77,16 +77,16 @@
       padding: 0.8rem;
       font-family: $bodyFont;
       font-size: 1rem;
-      border: 1px solid $bistre;
+      border: 1px solid var(--text);
       border-radius: 8px;
-      background-color: $chiffon;
+      background-color: var(--surface);
       
       &:focus { outline: none; }
     }
   }
 
   button {
-    background-color: $cerulean;
+    background-color: var(--link);
     color: #FFFFF4;
     padding: 0.7rem;
     font-family: $bodyFont;
@@ -97,7 +97,7 @@
     transition: all 0.3s ease;
 
     &:hover {
-      background-color: darken($cerulean, 10%);
+      background-color: var(--accent);
       transform: translateY(-2px);
     }
   }
@@ -112,10 +112,10 @@
   padding: 1.5rem 2.5rem;
   font-family: $bodyFont;
   font-size: 2rem;
-  background-color: $chiffon;
-  border: 1px solid $bistre;
+  background-color: var(--surface);
+  border: 1px solid var(--text);
   border-radius: 15px;
-  color: $bistre;
+  color: var(--text);
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 1000;

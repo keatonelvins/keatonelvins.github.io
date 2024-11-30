@@ -1,13 +1,13 @@
 article.post {
   min-height: 100vh;
-  background-color: $chiffon;
-  color: $bistre;
+  background-color: var(--surface);
+  color: var(--text);
 
   .post-header {
     display: flex;
     width: 100%;
     margin-top: 3rem;
-    background-color: $parchment;
+    background-color: var(--background);
 
     .post-thumbnail {
       img {
@@ -78,7 +78,7 @@ article.post {
     strong { font-weight: 500; }
     
     a {
-      color: $cerulean;
+      color: var(--link);
       text-decoration: none;
     }
 
@@ -99,7 +99,7 @@ article.post {
       display: block;
       margin: 10px 0;
       padding: 15px;
-      background-color: $parchment;
+      background-color: var(--background);
       border-radius: 5px;
       font-family: 'Inconsolata', sans-serif;
       overflow-x: auto;

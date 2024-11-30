@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background-color: $parchment;
+  background-color: var(--background);
 }
 
 html {
@@ -35,15 +35,54 @@ header {
   li a {
     display: block;
     padding: 0.8em 1rem;
-    color: $bistre;
+    color: var(--text);
     text-align: center;
     text-decoration: none;
     font-family: $headerFont;
     font-size: 1.7rem;
 
     &:hover {
-      color: $parchment;
-      background-color: $tangerine;
+      color: var(--background);
+      background-color: var(--accent);
     }
+  }
+
+  li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em 1rem;
+    color: var(--text);
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 1;
+      font-size: 1.7rem;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .material-symbols-outlined:nth-child(1) {
+      display: none;
+    }
+
+    &:hover {
+      color: var(--background);
+      background-color: var(--accent);
+    }
+  }
+}
+
+:root.dark .navbar li button {
+  .material-symbols-outlined:nth-child(2) {
+    display: none;
+  }
+  
+  .material-symbols-outlined:nth-child(1) {
+    display: inline-block;
   }
 }

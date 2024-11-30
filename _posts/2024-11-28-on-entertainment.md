@@ -20,7 +20,7 @@ The current solution seems to be hyper-optimized algorithms that sift through al
 
 The problem is that these platforms are highly incentivized to dominate your screen time; if you click a link in Instagram, it'll open a browser _inside Instagram_. Tweets with links to external sites are deprioritized! Each site becomes its own vortex where you need to keep doomscrolling to find what you came for.
 
-I'd say most people are pretty mindful of this. I hear people talk about [Brainrot](https://www.urbandictionary.com/define.php?term=Brainrot%20Content) all the time now. But the user's dilemma is that there _is_ useful content out there. Reel-type recipes and cooking tips are great. Sometimes I do want to see my friends' travel pics. Twitter is sooo good. If we want this content, we're forced to engage with these sites, but they're _so_ optimized to suck you in that using them in moderation is incredibly tricky.
+I'd say most people are pretty mindful of this. I hear people talk about [brainrot](https://www.urbandictionary.com/define.php?term=Brainrot%20Content) all the time now. But the user's dilemma is that there _is_ useful content out there. Reel-type recipes and cooking tips are great. Sometimes I do want to see my friends' travel pics. Twitter is sooo good. If we want this content, we're forced to engage with these sites, but they're _so_ optimized to suck you in that using them in moderation is incredibly tricky.
 
 I think the generations that weren't raised on this stuff have some guardrails baked in. Alarm bells that go off after we've spent 4 hours at the slop machine. But this is terrifying to me! We're reliant on this alarm to go off to pull us out. What happens when the content becomes so engrossing that the alarm never sounds? Or for the next generation that never had these alarms to begin with?
 
@@ -38,7 +38,7 @@ The show cuts every few seconds. The camera is always moving. There's constant g
 
 I think it would be naïve to assume that Instagram and TikTok don't do something similar. They can see what is happening on your screen when you decide to navigate away and can optimize to minimize this behavior. The difference is that a child does not have a defense mechanism against this. And if this is what all online content becomes, maybe they never will.
 
-And after they grow out of Cocomelon, it's straight into the iPad. Into TikTok and YouTube Shorts. And the new wave of generative AI applications. [Character AI](https://www.nytimes.com/2024/10/23/technology/characterai-lawsuit-teen-suicide.html) was in the news recently. The AI Girlfriend is _very_ real. 
+After they grow out of Cocomelon, it's straight to the iPad. Into TikTok and YouTube Shorts. And the new wave of generative AI applications. [Character AI](https://www.nytimes.com/2024/10/23/technology/characterai-lawsuit-teen-suicide.html) was in the news recently. The AI Girlfriend is _very_ real. 
 
 This is the area I'm particularly worried about. With AI, it's actually possible to converge on _the maximally engaging content you can depict on a screen_.
 

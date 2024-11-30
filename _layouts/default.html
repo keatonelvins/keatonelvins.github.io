@@ -8,7 +8,8 @@
     <meta name="keywords" content="keaton elvins, camfer, UC Berkeley, YCombinator">
     <meta name="author" content="keaton elvins">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="icon" type="image/x-icon" href="{{ "/assets/art/favicon.ico" | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0&symbol=light_mode;dark_mode" >
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/art/favicon.png" | relative_url }}">
   </head>
   <body>
     <header>
@@ -17,9 +18,23 @@
             <li><a href="{{ site.baseurl | default: "/"}}">home</a></li>
             <li><a href="/about">about</a></li>
             <li><a href="/posts">index</a></li>
+            <li><button id="theme-toggle" aria-label="Toggle theme">
+              <span class="material-symbols-outlined">light_mode</span>
+              <span class="material-symbols-outlined">dark_mode</span>
+            </button></li>
         </ul>
       </nav>
     </header>
     {{ content }}
+    <script>
+      const theme = localStorage.getItem('theme') || 
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.classList.toggle('dark', theme === 'dark');
+
+      document.getElementById('theme-toggle').addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    </script>
   </body>
 </html>

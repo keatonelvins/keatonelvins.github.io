@@ -6,9 +6,9 @@ title: "home"
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <div class="landing">
-    <img src="{{ site.baseurl }}/assets/art/cover.jpg" alt="cover art">
+    <img src="{{ site.baseurl }}/assets/art/cover_light.jpg" alt="cover art" class="theme-image light-image">
+    <img src="{{ site.baseurl }}/assets/art/cover_dark.jpg" alt="cover art" class="theme-image dark-image">
 </div>
-
 {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
 
 <section id="posts">

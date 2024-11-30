@@ -5,7 +5,7 @@
   margin: auto;
 
   li {
-    border-top: 1px solid $bistre;
+    border-top: 1px solid var(--text);
     display: flex;
     align-items: center;
     
@@ -13,7 +13,7 @@
       width: 100%;
       padding: 1em 0;
       text-decoration: none;
-      color: $bistre;
+      color: var(--text);
     }
 
     .posts-list-entry {
@@ -46,27 +46,27 @@
           text-align: center;
           width: auto;
           font-family: $bodyFont;
-          border: 1px solid $bistre;
+          border: 1px solid var(--text);
           border-radius: 2rem;
         }
       }
     }
 
     &:hover {
-      background-color: $tangerine;
-      color: $parchment;
+      background-color: var(--accent);
+      color: var(--background);
 
       a {
-        color: $parchment;
+        color: var(--background);
 
         .posts-list-entry .post-tag h3 {
-          border-color: $parchment;
+          border-color: var(--background);
         }
       }
     }
 
     &:last-child {
-      border-bottom: 1px solid $bistre;
+      border-bottom: 1px solid var(--text);
     }
   } 
 }

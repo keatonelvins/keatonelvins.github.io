@@ -22,7 +22,7 @@
             position: fixed;
             width: 25%;
             height: 65%;
-            background-color: $cerulean;
+            background-color: var(--link);
             z-index: 1;
 
             @media (max-width: 1200px) { height: 30%; }
@@ -36,7 +36,7 @@
         padding: 2rem 3rem;
         font-size: 1.8rem;
         font-family: $bodyFont;
-        color: $bistre;
+        color: var(--text);
 
         @media (max-width: 1200px) {
             width: 50%;
@@ -57,7 +57,7 @@
         }
 
         a {
-            color: $cerulean;
+            color: var(--link);
             text-decoration: none;
         }
 
