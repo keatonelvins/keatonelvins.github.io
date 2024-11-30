@@ -41,7 +41,14 @@ header {
     font-family: $headerFont;
     font-size: 1.7rem;
 
-    &:hover {
+    @media (hover: hover) {
+      &:hover {
+        color: var(--background);
+        background-color: var(--accent);
+      }
+    }
+
+    &:active {
       color: var(--background);
       background-color: var(--accent);
     }
@@ -70,7 +77,14 @@ header {
       display: none;
     }
 
-    &:hover {
+    @media (hover: hover) {
+      &:hover {
+        color: var(--background);
+        background-color: var(--accent);
+      }
+    }
+
+    &:active {
       color: var(--background);
       background-color: var(--accent);
     }
