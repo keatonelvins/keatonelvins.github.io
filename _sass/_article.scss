@@ -105,11 +105,73 @@ article.post {
       overflow-x: auto;
     }
 
+    blockquote {
+      margin: 2rem 0;
+      padding: 1rem 2rem;
+      border-left: 4px solid var(--accent);
+      background-color: var(--background);
+      font-style: italic;
+      position: relative;
+      
+      p {
+        margin: 0;
+      }
+
+      cite {
+        position: absolute;
+        top: 0rem;
+        right: 0.7rem;
+        font-size: 1.5rem;
+        font-style: normal;
+      }
+
+      author {
+        display: block;
+        text-align: right;
+        margin-top: 0.5rem;
+        font-style: normal;
+      }
+      
+      & + blockquote {
+        margin-top: -3rem;
+      }
+
+      strong {
+        font-style: normal;
+        font-weight: 500;
+      }
+    }
+
     p:only-child > mjx-container {
       display: block !important;
       max-width: 100%;
       padding: 40px;
       overflow-x: auto;
+    }
+
+    .footnotes {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 2px solid var(--text);
+      font-size: 0.9em;
+      
+      ol {
+        line-height: 1.6;
+        
+        li {
+          margin-bottom: 0.5rem;
+          
+          &:target {
+            background-color: var(--background);
+            padding: 0.5rem;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+
+    [id] {
+      scroll-margin-top: 200px;
     }
   }
 }
