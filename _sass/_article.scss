@@ -72,6 +72,7 @@ article.post {
     padding-bottom: 5rem;
     font-family: $bodyFont;
     font-size: 1.3rem;
+    font-weight: 300;
     line-height: 2;
 
     @media (max-width: 1200px) {
@@ -79,7 +80,7 @@ article.post {
       font-size: 1.15rem;
     }
 
-    strong { font-weight: 500; }
+    strong { font-weight: 400; }
     
     a {
       color: var(--link);
