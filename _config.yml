@@ -7,3 +7,6 @@ include:
 
 sass:
     style: compressed
+
+plugins:
+  - jekyll-seo-tag
