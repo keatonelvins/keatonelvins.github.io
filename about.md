@@ -2,19 +2,17 @@
 layout: about
 title: about me
 ---
-this is my website! i also have photos hosted [here](https://sites.google.com/view/myfuji/fall-23).
+i am the boy who writes these words
 
-some info about me:
-- honors berkeley grad in eecs
-- co-founded [camfer](https://camfer.dev)
-- currently based in SF
+goals:
+- write more
+- be funky, fresh (not banal, tedious, lame)
+- no posturing
 
-[books i've read](/reads)
+[books!](/reads)
 
-[linkedin](https://www.linkedin.com/in/keatonelvins/)
+[ephemera!](https://sites.google.com/view/myfuji/fall-23)
 
-[twitter](https://x.com/keatonelvins)
-
-source code for site [here](https://github.com/keatonelvins/keatonelvins.github.io)
+[source code!](https://github.com/keatonelvins/keatonelvins.github.io)
 
 contact me: keaton at camfer dot dev
