@@ -80,6 +80,7 @@
       border: 1px solid var(--text);
       border-radius: 8px;
       background-color: var(--surface);
+      color: var(--text);
       
       &:focus { outline: none; }
     }

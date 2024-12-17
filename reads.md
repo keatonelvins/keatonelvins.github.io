@@ -20,6 +20,16 @@ title: reads
     </form>
   </div>
 
+  <!-- <h1 id="2025">2025</h1>
+
+  <div class="book-grid">
+    {% for book in covers_2025 %}
+      <div class="book-cover">
+        <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
+      </div>
+    {% endfor %}
+  </div> -->
+
   <h1 id="2024">2024</h1>
 
   <div class="book-grid">
@@ -32,21 +42,24 @@ title: reads
 </div>
 
 <script>
-  var elem = document.querySelector('.book-grid');
-  var msnry = new Masonry( elem, {
-    itemSelector: '.book-cover',
-    columnWidth: '.book-cover',
-    percentPosition: true
-  });
+  // Initialize Masonry for all book grids
+  document.querySelectorAll('.book-grid').forEach(elem => {
+    var msnry = new Masonry(elem, {
+      itemSelector: '.book-cover',
+      columnWidth: '.book-cover',
+      percentPosition: true
+    });
 
-  var imgLoad = imagesLoaded(elem);
-  imgLoad.on('done', function() {
-    msnry.layout();
+    // Handle image loading for each grid
+    var imgLoad = imagesLoaded(elem);
+    imgLoad.on('done', function() {
+      msnry.layout();
 
-    document.querySelectorAll('.book-cover').forEach((cover, index) => {
-      setTimeout(() => {
-        cover.style.opacity = '1';
-      }, index * 50);
+      elem.querySelectorAll('.book-cover').forEach((cover, index) => {
+        setTimeout(() => {
+          cover.style.opacity = '1';
+        }, index * 50);
+      });
     });
   });
 

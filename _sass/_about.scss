@@ -58,5 +58,43 @@
             margin-bottom: 0.5rem;
             &:last-child { margin-bottom: 0; }
         }
+
+        blockquote {
+            margin: 2rem 0;
+            padding: 1rem 2rem;
+            background-color: var(--surface);
+            font-style: italic;
+            font-size: 1.6rem;
+            position: relative;
+            
+            p {
+              margin: 0;
+            }
+      
+            cite {
+              position: absolute;
+              top: 0rem;
+              right: 0.7rem;
+              font-size: 1.5rem;
+              font-style: normal;
+            }
+      
+            author {
+              display: block;
+              text-align: right;
+              margin-top: 0.5rem;
+              font-style: normal;
+            }
+            
+            & + blockquote {
+              margin-top: -3rem;
+            }
+      
+            strong {
+              font-style: normal;
+              font-weight: 500;
+            }
+          }
+      
     }
 }
