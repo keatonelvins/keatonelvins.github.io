@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "pretraining + finetuning"
-image: true
 image_name: "gecko"
 tag: "notes"
 ---

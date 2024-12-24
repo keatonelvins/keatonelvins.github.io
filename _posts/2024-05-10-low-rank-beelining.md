@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "beelining in low-rank structures"
-image: true
 image_name: "butterflies"
 tag: "deep learning"
 ---

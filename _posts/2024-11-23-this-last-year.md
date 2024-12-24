@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "this last year"
-image: true
 image_name: "flowers"
 tag: "quick thoughts"
 ---

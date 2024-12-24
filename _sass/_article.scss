@@ -24,6 +24,9 @@ article.post {
 
     .post-description {
       margin-bottom: 1rem;
+      width: 75%;
+      text-align: left;
+      align-self: flex-end;
       
       h1 {
         font-family: $headerFont;
@@ -37,12 +40,6 @@ article.post {
         font-size: 1.5rem;
         margin: 0;
       }
-    }
-
-    &.image .post-description {
-      width: 75%;
-      text-align: left;
-      align-self: flex-end;
 
       @media (max-width: 1200px) {
         width: 100%;
@@ -58,11 +55,6 @@ article.post {
           margin-bottom: 1.5rem;
         }
       }
-    }
-
-    &.no-image .post-description {
-      width: 100%;
-      text-align: center;
     }
   }
 

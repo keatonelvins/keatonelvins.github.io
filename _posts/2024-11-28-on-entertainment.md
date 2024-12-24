@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "on entertainment"
-image: true
 image_name: "boy"
 tag: "essay"
 ---
