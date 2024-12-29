@@ -37,6 +37,14 @@
     border: 1px solid var(--text);
     box-shadow: 2px 2px 0px var(--text);
   }
+
+  .book-year {
+    font-family: $bodyFont;
+    font-size: 0.9rem;
+    color: var(--text);
+    font-style: italic;
+    padding: 0 0.5rem;
+  }
 }
 
 // Responsive grid

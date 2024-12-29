@@ -10,6 +10,17 @@ title: "home"
     <img src="{{ site.baseurl }}/assets/art/cover_dark.jpg" alt="cover art" class="theme-image dark-image">
 </div>
 
+<div class="about">
+  <img src="{{ site.baseurl }}/assets/art/pfp_light.png" alt="cover art" class="pfp-image light-image">
+  <img src="{{ site.baseurl }}/assets/art/pfp_dark.png" alt="cover art" class="pfp-image dark-image">
+  <div class="about-text">
+    <p>I want to curate <a href="https://gwern.net/about#the-content">content</a> about the topics I'm interested in without constraining myself to long-form posts or even things that I wrote. Like a <a href="https://timrodenbroeker.de/digital-garden/">digital garden</a>.</p>
+    <p> Site built with <a href="https://jekyllrb.com">Jekyll</a>, source code <a href="https://github.com/keatonelvins/keatonelvins.github.io">here</a></p>
+    <p>Other <a href="https://sites.google.com/view/myfuji/">ephemera</a> and <a href="https://www.are.na/keaton-elvins/channels">snippets</a>.</p>
+    <p>This is not a blog!</p>
+  </div>
+</div>
+
 <section id="posts">
   {% for post in site.posts %}
     <div class="post-widget">

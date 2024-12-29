@@ -9,6 +9,7 @@ title: reads
 <div class="reads-container">
   {% assign covers_2024 = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2024'" %}
   {% assign covers_2025 = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2025'" %}
+  {% assign reading = site.static_files | where_exp: "file", "file.path contains 'assets/reads/reading'" %}
 
   <div class="book-recommendation-form">
     <h2>anonymous book recs!! (go go go)</h2>
@@ -20,22 +21,23 @@ title: reads
     </form>
   </div>
 
-  <!-- <h1 id="2025">2025</h1>
-
   <div class="book-grid">
+    {% for book in reading %}
+      <div class="book-cover">
+        <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
+        <div class="book-year">currently reading</div>
+      </div>
+    {% endfor %}
     {% for book in covers_2025 %}
       <div class="book-cover">
         <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
+        <div class="book-year">read in 2025</div>
       </div>
     {% endfor %}
-  </div> -->
-
-  <h1 id="2024">2024</h1>
-
-  <div class="book-grid">
     {% for book in covers_2024 %}
       <div class="book-cover">
         <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
+        <div class="book-year">read in 2024</div>
       </div>
     {% endfor %}
   </div>
