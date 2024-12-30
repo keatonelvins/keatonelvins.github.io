@@ -84,6 +84,7 @@ article.post {
       max-width: 75%;
       margin: auto;
       border-radius: 20px;
+      border: 1px solid var(--link);
 
       & + em {
         display: block;
