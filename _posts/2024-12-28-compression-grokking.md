@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "i just wanna grok"
+title: "compress to grok"
 image_name: "jetpack"
 tag: "deep learning"
 ---
