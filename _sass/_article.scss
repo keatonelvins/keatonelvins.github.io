@@ -94,12 +94,13 @@ article.post {
     }
     
     code {
-      display: block;
-      margin: 10px 0;
-      padding: 15px;
+      display: inline;
+      margin: 0;
+      padding: 2px 5px;
       background-color: var(--background);
-      border-radius: 5px;
+      border-radius: 3px;
       font-family: 'Inconsolata', sans-serif;
+      color: var(--accent);
       overflow-x: auto;
     }
 
