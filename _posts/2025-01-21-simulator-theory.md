@@ -2,7 +2,7 @@
 layout: post
 title: "simulator theory"
 image_name: "jetpack"
-tag: "link"
+tag: "bookmark"
 ---
 > "Let this garden be a replica of the world's garden, made emergent from the grammar of the world, and let your words be the beginning of sovereignty and the ground of it."
 

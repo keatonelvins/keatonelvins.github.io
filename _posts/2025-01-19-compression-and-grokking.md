@@ -2,7 +2,7 @@
 layout: post
 title: "compression and grokking"
 image_name: "airmail"
-tag: "essay"
+tag: "deep learning"
 ---
 
 >“He should have known better because, early in his learnings under his brother Mahmoud, he had discovered that long human words (the longer the better) were easy, unmistakable, and rarely changed their meanings . . . but short words were slippery, unpredictable, changing their meanings without any pattern. Or so he seemed to grok. Short human words were never like a short Martian word—such as “grok” which forever meant exactly the same thing. Short human words were like trying to lift water with a knife.”
