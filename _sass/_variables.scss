@@ -16,3 +16,12 @@ $bodyFont: 'Sentient', serif;
   --accent: #ffd800;
   --link: #f09800;
 }
+
+@font-face {
+  font-family: 'Mondwest';
+  src: url('../fonts/PPMondwest-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$pixelFont: 'Mondwest', serif;

@@ -4,6 +4,7 @@ title: "keaton e"
 
 include:
   - assets/art
+  - assets/fonts
 
 sass:
     style: compressed
