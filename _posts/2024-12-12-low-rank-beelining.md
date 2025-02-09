@@ -65,6 +65,8 @@ As a mental framework for this result, we can think of each transformer block be
 
 Deep nets are not just soups of homogenous weights. Taking care to understand their mechanisms and building algorithms in light of them is at the core of PEFT and the democratization of model training.
 
+P.S. I'm excited to read _Mount Analogue: A Tale of Non-Euclidean and Symbolically Authentic Mountaineering Adventures_ (ty Shaye), will revisit this post after.
+
 [^1]: Hu et al., [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf), 2022
 [^2]: Li et al., [Measuring the Intrinsic Dimension of Objective Landscapes](https://arxiv.org/abs/1804.08838), 2018
 [^3]: Aghajanyan et al., [Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/pdf/2012.13255.pdf), 2020
