@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "compression and grokking"
-image_name: "airmail"
+image_name: "boy"
 tag: "deep learning"
 ---
 
