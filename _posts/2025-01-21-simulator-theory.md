@@ -8,6 +8,6 @@ tag: "bookmark"
 
 Trying something out where I link to things I think more people should see. Will figure out a good way to do this later. Go read this!
 
-<center>
-<a href="https://www.lesswrong.com/s/N7nDePaNabJdnbXeE">Simulator Theory</a>
-</center>
+<div class="bookmark">
+  <a href="https://www.lesswrong.com/s/N7nDePaNabJdnbXeE">simulator theory</a>
+</div>

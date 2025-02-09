@@ -31,7 +31,7 @@ article.post {
       h1 {
         font-family: $headerFont;
         font-size: 5rem;
-        line-height: 4rem;
+        line-height: 4.5rem;
         margin: 0;
       }
       
@@ -130,10 +130,6 @@ article.post {
         margin-top: 0.5rem;
         font-style: normal;
       }
-      
-      & + blockquote {
-        margin-top: -3rem;
-      }
 
       strong {
         font-style: normal;
@@ -171,6 +167,31 @@ article.post {
 
     [id] {
       scroll-margin-top: 200px;
+    }
+
+    .bookmark {
+      text-align: center;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      border: 1px solid var(--text);
+      background-color: var(--background);
+      border-radius: 15px;
+      max-width: fit-content;
+
+      a {
+        color: var(--text);
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+
+      &:hover {
+        background-color: var(--accent);
+        color: var(--background);
+
+        a {
+          color: var(--background);
+        }
+      }
     }
   }
 }
