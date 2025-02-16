@@ -44,11 +44,11 @@ After they grow out of Cocomelon, it's straight to the iPad. Into TikTok and You
 This is the area I'm particularly worried about. With AI, it's actually possible to converge on _the maximally engaging content you can depict on a screen_.
 
 All you would need:
-1. A reinforcement learning environment where an agent can display anything they want to a UI.
+1. A reinforcement learning environment where a policy/agent can display anything they want to a UI.
 2. A user to interact with the UI.
-3. A reward signal to the agent based on how long the user is kept engaged.
+3. A reward signal based on how long the user is kept engaged.
 
-That's it! The agent will develop learned behavior that maximizes how long the user's attention is held. Imagine it has access to the user's age, demographic, interests, habits, browsing history, etc. (thanks web tracking). It could dynamically generate content hyper-personalized for them. It could tell them exactly what they want to hear. Show them what they want to see. A slight dopamine hit here, a perfectly timed emotional resonance there. The user might not recognize they're being aligned until their agency was eroded away.
+That's it! The model will develop learned behavior that maximizes how long the user's attention is held. Imagine it has access to the user's age, demographic, interests, habits, browsing history, etc. (thanks web tracking). It could dynamically generate content hyper-personalized for them. It could tell them exactly what they want to hear. Show them what they want to see. A slight dopamine hit here, a perfectly timed emotional resonance there. The user might not recognize they're being aligned until their agency was eroded away.
 
 One stage of post-training in the current chatbot paradigm is Reinforcement Learning from Human Feedback (RLHF). During this stage, the model is essentially given a signal of "humans prefer these responses over these other responses". Traditionally, the human labelers are asked to rate how "helpful" the response was; however, since the signal is really a human-based heuristic on helpfulness, the model is purely optimizing for having _humans rate it as helpful_.
 
@@ -75,6 +75,8 @@ But as nice as it is, I think we as individuals need to decide if our online liv
 > **David Lipsky:** Well, come on.
 
 > **DFW:** In a meaningful way, you're going to die.
+
+Revisiting this, some [recent](https://x.com/nearcyan/status/1871281826742042628) [developments](https://blog.youtube/news-and-events/veo-2-shorts/?utm_source=x&utm_medium=social&utm_campaign=&utm_content=) have me feeling quick sick :^/.
 
 [^1]: Richard Hamming, *Art of Doing Science and Engineering: Learning to Learn*, 1997
 [^2]: David Segal, [A Kid’s Show Juggernaut That Leaves Nothing to Chance](https://www.nytimes.com/2022/05/05/arts/television/cocomelon-moonbug-entertainment.html), *The New York Times*, 2022
