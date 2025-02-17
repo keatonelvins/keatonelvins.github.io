@@ -21,4 +21,4 @@ Wanted to compile a list of the sites I appreciate in the hopes that it'll inspi
 - [kortina.nyc](https://kortina.nyc)
 - [gwern.net](https://gwern.net)
 - [matt-rickard.com](https://matt-rickard.com)
-
+- [joodaloop.com](https://joodaloop.com/)
