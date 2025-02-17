@@ -7,18 +7,22 @@
     <meta name="description" content="personal website of keaton elvins">
     <meta name="keywords" content="keaton elvins, camfer, UC Berkeley, YCombinator">
     <meta name="author" content="keaton elvins">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Keaton Elvins{% endif %}">
+    <meta property="og:description" content="Personal website of Keaton Elvins - Software Engineer, UC Berkeley graduate, and YCombinator alum">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0&symbol=light_mode;dark_mode" >
-    <link rel="icon" type="image/png" sizes="128x128" href="{{ "/assets/art/favicon-128x128.png" | relative_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/art/favicon-32x32.png" | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/art/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="128x128" href="{{ '/assets/art/favicon-128x128.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/art/favicon-32x32.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/art/apple-touch-icon.png' | relative_url }}">
     {% seo %}
   </head>
   <body>
     <header>
       <nav>
         <ul class="navbar">
-            <li><a href="{{ site.baseurl | default: "/"}}">home</a></li>
+            <li><a href="{{ site.baseurl | default: '/'}}">home</a></li>
             <li><a href="/reads">books</a></li>
             <li><a href="/posts">index</a></li>
             <li><button id="theme-toggle" aria-label="Toggle theme">
