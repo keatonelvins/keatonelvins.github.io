@@ -30,5 +30,12 @@ I'm thinking more now that the crystallization is necessary for meaning to be bo
 >So, "good writerly habit" might consist of continually revising toward specificity, so that specificity can appear and then produce plot (or, as we prefer to call it, "meaningful action").
 > <author>George Saunders, A Swim In A Pond In The Rain</author>
 
+>Professor Quirrell seemed to understand anyway. “Words are like light waves,” he said. “Particle and wave. A sentence is both one thing and many. It unwinds itself, it decoheres. What in the mind was uncertain becomes certain. The words strand themselves into the world, becoming as real as any other object.”
+>What do meanings do until then? Harry thought, back in the ancient vaults of wordless thought. Which meanings are real? We do not see until we speak.
+>Professor Quirrell’s voice spoke on, as if in cold contemplation. “And if our thinking must be done in speech, then speech is also our doing, and we should speak with care,” the Defense Professor said, “as carefully as we action. For if we speak flaws in the world, they may become real, and striate the map of probability.” <cite>[^2]</cite>
+> <author> Janus? code-davinci-002? </author>
+
+
 [^1]: [https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/vPsupipfyeDoSAirY](https://www.lesswrong.com/s/N7nDePaNabJdnbXeE/p/vPsupipfyeDoSAirY)
+[^2]: [https://generative.ink/artifacts/hpmor-325/variant_extrusion](https://generative.ink/artifacts/hpmor-325/variant_extrusion/#variant_extrusion_start)
 
