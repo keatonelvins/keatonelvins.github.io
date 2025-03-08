@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "on entertainment"
-image_name: "butterflies"
+image_name: "fruit"
 tag: "essay"
 ---
 
