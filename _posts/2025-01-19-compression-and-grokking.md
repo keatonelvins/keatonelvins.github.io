@@ -36,7 +36,7 @@ We want a model that compresses the data best, and is itself most compressible.
 Before we dive in to this idea and how it relates to [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor), [MDL](https://en.wikipedia.org/wiki/Minimum_description_length), [Kolmogorov Complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity), [Algorithmic Information Theory](https://en.wikipedia.org/wiki/Algorithmic_information_theory), and [Solmonoff Induction](https://en.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference) (warning: high rabbit-hole potential), I want to introduce the deep learning phenomena known as _grokking_.
 
 > “Grok’ means to understand so thoroughly that the observer becomes a part of the observed – to merge, blend, intermarry, lose identity in group experience."
-> Robert Heinlein, _Stranger in a Strange Land_
+> <author>Robert Heinlein</author>
 
 The OpenAI team behind the og grokking paper[^2] identified that small, algorithmically generated datasets could prove to be a fertile ground for studying generalization of overparametrized neural networks beyond memorization of the training data. In practice, they showed that significantly into the overfitting regime (according to our classical understanding of deep learning), the models would suddenly jump from random guesswork to perfect generalization on validation data.
 
