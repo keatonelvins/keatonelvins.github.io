@@ -111,6 +111,8 @@ https://arxiv.org/pdf/2502.13189
 Muon!!: https://github.com/MoonshotAI/Moonlight
 https://drive.google.com/file/d/1lw0hfxHAshcKupxMW51F5zeV1PeDe34w/view
 
+https://arxiv.org/abs/2503.19786
+
 
 [^1]: https://arxiv.org/pdf/2412.19437
 [^2]: https://arxiv.org/pdf/2408.15664
