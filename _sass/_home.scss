@@ -45,7 +45,7 @@
         width: 300px;
         height: 300px;
         object-fit: cover;
-        padding-top: 0.5rem;
+        padding-top: 1rem;
         padding-bottom: 0;
         margin-bottom: 0;
         margin-top: auto;
@@ -55,6 +55,7 @@
         display: flex;
         flex: 1;
         margin: auto 1rem;
+        padding-top: 0.5rem;
         flex-direction: column;
 
         p {

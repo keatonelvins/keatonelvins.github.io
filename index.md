@@ -15,8 +15,8 @@ title: "home"
   <img src="{{ site.baseurl }}/assets/art/pfp_dark.png" alt="cover art" class="pfp-image dark-image">
   <div class="about-text">
     <p>I want to curate <a href="https://gwern.net/about#the-content">content</a> about the topics I'm interested in without constraining myself to long-form posts or even things that I wrote. Like a <a href="https://timrodenbroeker.de/digital-garden/">digital garden</a>.</p>
+    <p>Current rabbit holes: <a href="https://physics.allen-zhu.com/home">physics of language models</a> and <a href="https://transformer-circuits.pub">circuits</a>.</p>
     <p>Other <a href="https://sites.google.com/view/myfuji/">ephemera</a> and <a href="https://www.are.na/keaton-elvins/channels">snippets</a>.</p>
-    <p>Current rabbit hole: <a href="https://physics.allen-zhu.com/home">physics of language models</a>.</p>
     <p>Source code <a href="https://github.com/keatonelvins/keatonelvins.github.io">here</a>.</p>
   </div>
 </div>
