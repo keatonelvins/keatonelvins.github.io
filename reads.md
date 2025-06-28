@@ -7,6 +7,7 @@ title: reads
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <div class="reads-container">
+  {% assign covers_2023 = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2023'" %}
   {% assign covers_2024 = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2024'" %}
   {% assign covers_2025 = site.static_files | where_exp: "file", "file.path contains 'assets/reads/2025'" %}
   {% assign reading = site.static_files | where_exp: "file", "file.path contains 'assets/reads/reading'" %}
@@ -38,6 +39,12 @@ title: reads
       <div class="book-cover">
         <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
         <div class="book-year">read in 2024</div>
+      </div>
+    {% endfor %}
+    {% for book in covers_2023 %}
+      <div class="book-cover">
+        <img src="{{ site.baseurl }}{{ book.path }}" alt="Book cover">
+        <div class="book-year">read in 2023</div>
       </div>
     {% endfor %}
   </div>
