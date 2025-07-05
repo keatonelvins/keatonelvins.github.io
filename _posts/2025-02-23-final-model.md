@@ -108,26 +108,23 @@ https://arxiv.org/pdf/2501.15383
 
 https://arxiv.org/pdf/2502.13189
 
-Muon!!: https://github.com/MoonshotAI/Moonlight
-https://drive.google.com/file/d/1lw0hfxHAshcKupxMW51F5zeV1PeDe34w/view
-
 https://arxiv.org/abs/2503.19786
 
 
-[^1]: https://arxiv.org/pdf/2412.19437
-[^2]: https://arxiv.org/pdf/2408.15664
-[^3]: https://ai.meta.com/research/publications/memory-layers-at-scale/
-[^4]: https://arxiv.org/pdf/2501.00663
-[^5]: https://arxiv.org/pdf/2408.00118
-[^6]: https://research.character.ai/optimizing-inference/
-[^7]: https://arxiv.org/pdf/2412.13663
-[^8]: https://arxiv.org/pdf/2305.13245
-[^9]: https://www.arxiv.org/pdf/2502.05171
-[^10]: https://arxiv.org/pdf/2501.19393
-[^11]: https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2
-[^12]: https://github.com/xjdr-alt/entropix
-[^13]: https://arxiv.org/pdf/2412.17747
-[^14]: https://arxiv.org/pdf/2309.00071
-[^15]: https://arxiv.org/abs/2501.18795
-[^16]: https://arxiv.org/pdf/2309.17453
-[^17]: https://arxiv.org/pdf/2410.17897
+[^1]: <https://arxiv.org/pdf/2412.19437>
+[^2]: <https://arxiv.org/pdf/2408.15664>
+[^3]: <https://ai.meta.com/research/publications/memory-layers-at-scale/>
+[^4]: <https://arxiv.org/pdf/2501.00663>
+[^5]: <https://arxiv.org/pdf/2408.00118>
+[^6]: <https://research.character.ai/optimizing-inference/>
+[^7]: <https://arxiv.org/pdf/2412.13663>
+[^8]: <https://arxiv.org/pdf/2305.13245>
+[^9]: <https://www.arxiv.org/pdf/2502.05171>
+[^10]: <https://arxiv.org/pdf/2501.19393>
+[^11]: <https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2>
+[^12]: <https://github.com/xjdr-alt/entropix>
+[^13]: <https://arxiv.org/pdf/2412.17747>
+[^14]: <https://arxiv.org/pdf/2309.00071>
+[^15]: <https://arxiv.org/abs/2501.18795>
+[^16]: <https://arxiv.org/pdf/2309.17453>
+[^17]: <https://arxiv.org/pdf/2410.17897>

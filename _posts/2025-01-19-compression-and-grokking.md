@@ -44,7 +44,7 @@ From an information theory perspective[^3], the writing had been on the wall. Re
 
 The first follow-up paper I read was on "Unifying Grokking and Double Descent"[^4], where the authors viewed both phenomena as inductive biases applying gradient pressure towards better-generalizing but slower to learn patterns. This is the lens of _pattern learning_, which captures the idea that neural networks can use distinct kinds of mechanisms to classify different inputs; for example, they may memorize some examples while applying heuristics to classify others. Grokking happens when slow patterns generalize well and are ultimately preferred by the training regime, but are preceded by faster patterns which generalize poorly. Patterns can be viewed as a function of model size as well as a function of training time, and learning dynamics are similar between these two cases.
 
-Earlier I mentioned we can think about language models in their base autoregressive text generator state. Another mental model I like, borrowed from [Francois Chollet](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering), is the _continuous, interpolative_ program database. 
+Earlier, I mentioned we can think about language models in their base autoregressive text generator state. Another mental model I like, borrowed from [Francois Chollet](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering), is the _continuous, interpolative_ program database. 
 
 >"Instead of being stored as a set of discrete entries, your data is stored as a vector space — a curve. You can move around on the curve (it’s semantically continuous, as we discussed) to explore nearby, related points. And you can interpolate on the curve between different data points to find their in-between."
 
@@ -64,22 +64,23 @@ I can buy that parameter norm can act as a proxy for complexity and is a good in
 
 Unfortunately, naïvely trying to compress the weights and tracking the size reduction seems to produce poor complexity bounds. This is due to our model containing random information left over from initialization and the stochasticity of training. If we could surgically strip away this random information, compressing the final parameters would give much tighter bounds. However, it is actually undecidable whether information is random or not!
 
-> Given a machine M, and a string x of length n, construct a decider D which, given the the machine and two strings, accepts if the first string is a program that encodes the second string, and rejects if the first string does not encode the second string. Create a machine that will run this decider on all strings of length n-1, and accept iff the decider accepts for one of the strings. If one or more of the strings of length n-1 does not halt, then the decider would be able to solve the halting problem. Since this is not possible, creating a machine which determines if a string is Kolmogorov random has to also be impossible.
+> Given a machine M, and a string x of length n, construct a decider D which, given the machine and two strings, accepts if the first string is a program that encodes the second string, and rejects if the first string does not encode the second string. Create a machine that will run this decider on all strings of length n-1, and accept iff the decider accepts for one of the strings. If one or more of the strings of length n-1 does not halt, then the decider would be able to solve the halting problem. Since this is not possible, creating a machine which determines if a string is Kolmogorov random has to also be impossible.
 > [^9]
 
-Thankfully, there's a workaround. We can decide if the information is random or not by _seeing if removing it affects model performance_. We can use the difference in loss before/after compression as our rate-distortion metric! To do so, we can take the spectral entropy of each weight matrix (the effective rank) and measure the intrinsic dimension of the transformation parameterized by M. Adding this term to our loss function speeds up time to grokking![^10]
+Thankfully, there's a workaround. We can decide if the information is random or not by _seeing if removing it affects model performance_. We can use the difference in loss before/after compression as our rate-distortion metric! To do so, we can take the spectral entropy of each weight matrix (the effective rank) and measure the intrinsic dimension of the transformation parameterized by M. Adding this term to our loss function speeds up time to grokking![^10] We've now moved from parameter-norm as our surrogate for complexity to actual compressability.
 
-Even past other methods[^11] that use our understanding of grokking to speed up the phase-transition, I expect future development to speed-run memorization and more directly target generalization. At the limit, this looks like a lightweight reasoning circuit with little to no factual content memorized. Couple this with a massive context window and things really start to happen at the edge. 
+Past other methods[^11] that use our understanding of grokking to speed up the phase-transition, I'm looking for future optimization techniques to speed-run memorization and more directly target generalization. At the limit, this looks like a lightweight (~1B?) reasoning model with little to no factual content memorized. A model that, given enough context[^12], may start to do incredible things on your local machine.
 
 
-[^1]: https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf
-[^2]: https://arxiv.org/pdf/2201.02177
-[^3]: https://lilianweng.github.io/posts/2017-09-28-information-bottleneck/
-[^4]: https://arxiv.org/pdf/2303.06173
-[^5]: https://youtu.be/XhB3qH_TFds?si=JwnrIhCEB7bWToyB&t=2460
-[^6]: https://arxiv.org/pdf/2411.12580
-[^7]: https://arxiv.org/pdf/2309.02390
-[^8]: https://arxiv.org/pdf/2301.05217
-[^9]: https://www.cs.princeton.edu/courses/archive/fall11/cos597D/L10.pdf
-[^10]: https://arxiv.org/pdf/2412.09810
-[^11]: https://arxiv.org/pdf/2405.20233
+[^1]: <https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf>
+[^2]: <https://arxiv.org/pdf/2201.02177>
+[^3]: <https://lilianweng.github.io/posts/2017-09-28-information-bottleneck/>
+[^4]: <https://arxiv.org/pdf/2303.06173>
+[^5]: <https://youtu.be/XhB3qH_TFds?si=JwnrIhCEB7bWToyB&t=2460>
+[^6]: <https://arxiv.org/pdf/2411.12580>
+[^7]: <https://arxiv.org/pdf/2309.02390>
+[^8]: <https://arxiv.org/pdf/2301.05217>
+[^9]: <https://www.cs.princeton.edu/courses/archive/fall11/cos597D/L10.pdf>
+[^10]: <https://arxiv.org/pdf/2412.09810>
+[^11]: <https://arxiv.org/pdf/2405.20233>
+[^12]: <https://jan.ai/docs/jan-models/jan-nano-128>
