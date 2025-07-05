@@ -5,7 +5,7 @@ image_name: "nsa"
 tag: "deep learning"
 ---
 
-Found a [recent thread](https://x.com/i/bookmarks?post_id=1891039294275338452) where a bunch of highly online ML anons tossed out ideas on what the MVP Final Architecture™ might look like and wanted to unpack the takes + jargon (being real I needed to dig through a good amount of papers for this). This turned into somewhat of a SOTU but might be interesting!!
+Found a [recent thread](https://x.com/i/bookmarks?post_id=1891039294275338452) where a bunch of highly online ML anons tossed out ideas on what the MVP Final Architecture™ might look like and wanted to unpack the takes + jargon (being real I needed to dig through a good amount of papers for this).
 
 ---
 >- ≈DS-MoE
@@ -17,7 +17,7 @@ Found a [recent thread](https://x.com/i/bookmarks?post_id=1891039294275338452) w
 >- KV deliberation
 ><author>@Teortaxes</author>
 
-The DS-MoE architecture has changed over time but the latest we know of comes from DeepSeek V3[^1]. There are two core changes from the vanilla transformer (plus some norming tricks): each layer has the standard attention block replaced with a Multi-head Latent Attention (MLA) block and the FFN block with a DeepSeekMoE block (fine-grained experts with auxiliary-loss-free load balancing[^2]).
+The DS-MoE architecture has changed over time, but the latest we know of comes from DeepSeek V3[^1]. There are two core changes from the vanilla transformer (plus some norming tricks): each layer has the standard attention block replaced with a Multi-head Latent Attention (MLA) block and the FFN block with a DeepSeekMoE block (fine-grained experts with auxiliary-loss-free load balancing[^2]).
 
 ![DS-MoE Architecture](/assets/posts/deepseekmoe.png){:class="img-responsive"}
 
@@ -92,7 +92,6 @@ Value residuals[^17] is part of a longstanding effort to enable effective propag
 ---
 
 TODO:
-https://arxiv.org/abs/2405.13226
 
 https://arxiv.org/abs/2501.01956
 
@@ -103,8 +102,6 @@ https://arxiv.org/abs/2410.23771
 https://arxiv.org/abs/2210.13432
 
 https://arxiv.org/pdf/2502.11089
-
-https://arxiv.org/pdf/2501.15383
 
 https://arxiv.org/pdf/2502.13189
 
