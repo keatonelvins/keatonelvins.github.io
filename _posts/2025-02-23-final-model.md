@@ -60,7 +60,7 @@ I'd expect improvements from each technique to compound on each other, but it st
 
 As above, 1:3 implies 3 SWA blocks then 1 global block for each contiguous chunk of 4 layers. The SWA uses Rotary Positional Encoding  (used by Mistral, Qwen, Olmo, Deepseek) and can be extended to long context with YaRN[^14]. This architecture comes courtesy of the Cohere folks[^15] where they ablate RoPE and no positional encoding (NoPE) and end up interleaving 1:3 RoPE to NoPE layers in a novel approach (RNope-SWA though? really?). From analysis, NoPE layers in RNoPE had strong retrieval (spikes in attention mass on the retrieved tokens and attention sinks[^16] on beginning tokens) but bad recency bias compared to pure RoPE or pure NoPE. RoPE layers instead had bad retrieval (little/no attention sink on early or retrieved tokens) with very stronger recency bias. 1:3 seemed to strike a good balance on long (64k - 256k) and short (8k-32k) tasks while minimizing KV cache size and boosting inference speed. SWA feels analogous to hidden-state mechanics in RNN's, so I can see how hot-swapping might make sense.
 
-Depth is sooo important. There's probably some $$N$$-layers sweet spot where inference is reasonable but there's still sufficient computational capacity per forward pass to reach critical mass, but at the moment I'm very depth-pilled (looking at you Mistral although I get the use case). 
+Depth is sooo important. There's probably some $$N$$-layers sweet spot where inference is reasonable but there's still sufficient computational capacity per forward pass to reach critical mass, but at the moment I'm very depth-pilled (looking at you Mistral although I get the use case). Although I've seen multiple papers doing search in MoE-space that claim DSV3 is near-optimal.
 
 Value residuals[^17] is part of a longstanding effort to enable effective propagation of initial information to deeper layers. Adding hidden state residuals or 'skip connections' (see ResNet) was huge for deep learning at large – addressing vanishing gradients and rank degeneration – but the problem is not solved. With very deep nets, blocks can become smooth with only minute difference between hidden states layer to layer. Value residuals introduce an additional residual stream between the value vectors of the current layer and the first layer before the attention operation. This allows token-level raw information to propagate directly from the input sequence.
 
@@ -76,6 +76,8 @@ Value residuals[^17] is part of a longstanding effort to enable effective propag
 >- Mixture of Depth based on complexity that dynamically adjusted layer count and number of contributing experts in the router MTP (with UL2) but like 12 - 24 heads (should also be part of the MoD) 
 >- Entropix sampler test time compute harness via entropy aware branching + search
 ><author>@xjdr</author>
+
+Lot of similar notes as above: MLA, NoPE, RoPE, 1:8 ratio all mentioned. Interesting to see 40T tokens, we recently got the Qwen3 technical report which claims 36T tokens. A TON of these are synthetically generated from their domain specific Math and Coder lines. Expect to see more of this and scaling rollouts in diverse tool/MCP environments.
 
 ---
 >- 1:4/1:8 global with no positional encoding, instead use MLA/some other efficient-attention flavor
@@ -104,8 +106,6 @@ https://arxiv.org/abs/2210.13432
 https://arxiv.org/pdf/2502.11089
 
 https://arxiv.org/pdf/2502.13189
-
-https://arxiv.org/abs/2503.19786
 
 
 [^1]: <https://arxiv.org/pdf/2412.19437>
