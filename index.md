@@ -14,9 +14,10 @@ title: "home"
   <img src="{{ site.baseurl }}/assets/art/pfp_light.png" alt="cover art" class="pfp-image light-image">
   <img src="{{ site.baseurl }}/assets/art/pfp_dark.png" alt="cover art" class="pfp-image dark-image">
   <div class="about-text">
-    <p>I want to curate <a href="https://gwern.net/about#the-content">content</a> about the topics I'm interested in without constraining myself to long-form posts or even things that I wrote. Like a <a href="https://timrodenbroeker.de/digital-garden/">digital garden</a>.</p>
-    <p>Current rabbit holes: <a href="https://physics.allen-zhu.com/home">physics of language models</a> and <a href="https://transformer-circuits.pub">circuits</a>.</p>
-    <p>Other <a href="https://sites.google.com/view/myfuji/">ephemera</a> and <a href="https://www.are.na/keaton-elvins/channels">snippets</a>.</p>
+    <p>On a quest for <a href="https://gwern.net/about#the-content">the content</a>. Like a <a href="https://timrodenbroeker.de/digital-garden/">digital garden</a>?</p>
+    <p>Current rabbit holes: <a href="https://huggingface.co/spaces/nanotron/ultrascale-playbook">scaling</a> and <a href="https://transformer-circuits.pub">circuits</a>.</p>
+    <p>Recently read: <a href="https://www.giuliostarace.com/posts/in-the-limit-only-culture/">In the Limit, Only Culture Remains</a></p>
+    <p>Other <a href="https://sites.google.com/view/myfuji/">ephemera</a> and <a href="https://x.com/KeatonElvins">thoughts</a>.</p>
     <p>Source code <a href="https://github.com/keatonelvins/keatonelvins.github.io">here</a>.</p>
   </div>
 </div>
